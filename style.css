@@ -1,34 +1,38 @@
 :root {
-    /* Pantone Color of the Year 2026: Cloud Dancer (11-4201) - A billowy, balanced white */
-    --bg-color: #F0F2F5;
-    /* Soft atmosphere */
+    /* Restaurant Menu Palette - Warm and inviting */
+    --bg-color: #FDFBF7;
+    /* Cream/Off-white paper */
     --card-bg: #FFFFFF;
-    /* Cloud Dancer */
-    --text-primary: #1F2937;
-    /* Deep charcoal for contrast */
-    --text-secondary: #64748B;
-    /* Slate grey */
-    --accent-color: #475569;
-    /* Slate */
-    --accent-gradient: linear-gradient(135deg, #1e293b 0%, #475569 100%);
-    /* Stronger cloud gradient for header */
-    --card-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.08);
-    /* Floatier shadow */
-    --font-family: 'Outfit', sans-serif;
+    --text-primary: #2C2C2C;
+    /* Deep Charcoal */
+    --text-secondary: #5D5D5D;
+    /* Soft Grey */
+    --accent-color: #D4AF37;
+    /* Muted Gold/Bronze */
+    --accent-dark: #8B4513;
+    /* Saddle Brown */
+
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Lato', sans-serif;
+
+    --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    /* Very subtle shadow */
+    --border-color: #E5E0D8;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #0F172A;
-        /* Deep Night Sky */
-        --card-bg: #1E293B;
-        /* Darker Slate */
-        --text-primary: #F8FAFC;
-        /* Cloud White */
-        --text-secondary: #94A3B8;
-        --accent-color: #E2E8F0;
-        --accent-gradient: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
-        --card-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.5);
+        --bg-color: #1A1A1A;
+        /* Dark Menu Background */
+        --card-bg: #222222;
+        --text-primary: #F0F0F0;
+        --text-secondary: #B0B0B0;
+        --accent-color: #C0A060;
+        /* Slightly lighter gold */
+        --accent-dark: #A0522D;
+        /* Lighter brown */
+        --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        --border-color: #333333;
     }
 }
 
@@ -39,92 +43,123 @@
 }
 
 body {
-    font-family: var(--font-family);
+    font-family: var(--font-body);
     background-color: var(--bg-color);
     color: var(--text-primary);
-    line-height: 1.5;
+    line-height: 1.6;
     padding: 2rem 1rem;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: radial-gradient(var(--border-color) 1px, transparent 1px);
+    background-size: 20px 20px;
+    /* Subtle pattern */
 }
 
 header {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-color);
+    width: 100%;
+    max-width: 600px;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
     font-weight: 700;
-    margin-bottom: 0.5rem;
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.2rem;
+    color: var(--text-primary);
+    letter-spacing: -1px;
+    font-style: italic;
 }
 
 #current-date-display {
     color: var(--text-secondary);
     font-size: 1.1rem;
-    text-transform: capitalize;
+    font-family: var(--font-heading);
+    font-style: italic;
+    letter-spacing: 0.5px;
 }
 
 #app {
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .school-card {
     background: var(--card-bg);
-    border-radius: 20px;
-    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    /* Less rounded, more like paper */
+    padding: 2.5rem 2rem;
     box-shadow: var(--card-shadow);
     cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    border: 1px solid transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
     overflow: hidden;
+    text-align: center;
+    /* Center align like a menu */
+}
+
+.school-card::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 1px solid var(--border-color);
+    pointer-events: none;
+    border-radius: 2px;
 }
 
 .school-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    border-color: var(--accent-color);
+}
+
+.school-card:hover::before {
+    border-color: var(--accent-color);
+    opacity: 0.5;
 }
 
 .school-card:active {
-    transform: scale(0.98);
+    transform: scale(0.99);
 }
 
 .school-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    padding-bottom: 0.8rem;
-}
-
-@media (prefers-color-scheme: dark) {
-    .school-header {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    }
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px dashed var(--border-color);
+    padding-bottom: 1rem;
+    position: relative;
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
     font-weight: 600;
-    color: var(--text-secondary);
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
 }
 
 .status-badge {
     font-size: 0.8rem;
-    color: var(--text-secondary);
+    color: var(--accent-color);
     font-style: italic;
-    opacity: 0.8;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .main-dish-container {
@@ -134,32 +169,36 @@ h2 {
 .dish-label {
     text-transform: uppercase;
     font-size: 0.75rem;
-    letter-spacing: 1px;
-    color: var(--text-secondary);
-    margin-bottom: 0.5rem;
-    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--accent-dark);
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+    font-family: var(--font-body);
 }
 
 .main-dish {
-    font-size: 1.75rem;
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    /* Larger for menu impact */
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.3;
     color: var(--text-primary);
+    font-style: italic;
 }
 
 /* Expand Indicator */
 .expand-indicator {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
-    color: var(--text-secondary);
-    opacity: 0.5;
+    margin-top: 1.5rem;
+    color: var(--accent-color);
+    opacity: 0.6;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .school-card:hover .expand-indicator {
     opacity: 1;
-    transform: translateY(2px);
+    transform: translateY(3px);
 }
 
 .school-card.expanded .expand-indicator {
@@ -174,55 +213,66 @@ h2 {
     max-height: 0;
     opacity: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease, opacity 0.4s ease, margin-top 0.3s ease, padding-top 0.3s ease;
+    transition: max-height 0.5s ease-in-out, opacity 0.4s ease, margin-top 0.3s ease, padding-top 0.3s ease;
     border-top: 1px solid transparent;
 }
 
 .school-card.expanded .details-view {
-    margin-top: 1.5rem;
-    padding-top: 1rem;
-    max-height: 500px;
-    /* Arbitrary large height for transition */
+    margin-top: 2rem;
+    /* More space */
+    padding-top: 1.5rem;
+    max-height: 800px;
     opacity: 1;
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-@media (prefers-color-scheme: dark) {
-    .school-card.expanded .details-view {
-        border-top: 1px solid rgba(255, 255, 255, 0.05);
-    }
+    border-top: 1px dashed var(--border-color);
 }
 
 .details-view h4 {
-    font-size: 0.9rem;
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
     color: var(--text-secondary);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid var(--border-color);
+    display: inline-block;
+    padding-bottom: 0.2rem;
 }
 
 .upcoming-list {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
+    text-align: left;
+    /* Keep lists readable */
+    padding: 0 1rem;
 }
 
 .upcoming-item {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
+    position: relative;
+    padding-left: 1rem;
+    /* Indent slightly */
+    border-left: 2px solid var(--accent-color);
+    /* Elegant accent line */
 }
 
 .upcoming-date {
+    font-family: var(--font-body);
     font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--accent-color);
+    font-weight: 700;
+    color: var(--accent-dark);
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .upcoming-dish {
-    font-size: 1rem;
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
     color: var(--text-primary);
+    font-style: italic;
 }
 
 .hidden {
@@ -230,8 +280,19 @@ h2 {
 }
 
 footer {
-    margin-top: 3rem;
+    margin-top: 4rem;
     font-size: 0.8rem;
     color: var(--text-secondary);
-    opacity: 0.6;
+    font-style: italic;
+    opacity: 0.7;
+    position: relative;
+}
+
+footer::before {
+    content: "~~~";
+    display: block;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    letter-spacing: 5px;
+    color: var(--accent-color);
 }
