@@ -296,3 +296,42 @@ footer::before {
     letter-spacing: 5px;
     color: var(--accent-color);
 }
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem 0.5rem;
+    }
+
+    header {
+        margin-bottom: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    #app {
+        gap: 1rem;
+    }
+
+    .school-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .school-header {
+        margin-bottom: 1rem;
+    }
+
+    .main-dish {
+        font-size: 1.6rem;
+    }
+
+    .expand-indicator {
+        margin-top: 1rem;
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+}
