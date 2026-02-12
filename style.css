@@ -1,21 +1,34 @@
 :root {
-    --bg-color: #f8f9fa;
-    --card-bg: #ffffff;
-    --text-primary: #1a1a1a;
-    --text-secondary: #6c757d;
-    --accent-color: #007aff;
-    --accent-gradient: linear-gradient(135deg, #007aff 0%, #00d2ff 100%);
-    --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    /* Pantone Color of the Year 2026: Cloud Dancer (11-4201) - A billowy, balanced white */
+    --bg-color: #F0F2F5;
+    /* Soft atmosphere */
+    --card-bg: #FFFFFF;
+    /* Cloud Dancer */
+    --text-primary: #1F2937;
+    /* Deep charcoal for contrast */
+    --text-secondary: #64748B;
+    /* Slate grey */
+    --accent-color: #475569;
+    /* Slate */
+    --accent-gradient: linear-gradient(135deg, #1e293b 0%, #475569 100%);
+    /* Stronger cloud gradient for header */
+    --card-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.08);
+    /* Floatier shadow */
     --font-family: 'Outfit', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #0d1117;
-        --card-bg: #161b22;
-        --text-primary: #f0f6fc;
-        --text-secondary: #8b949e;
-        --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        --bg-color: #0F172A;
+        /* Deep Night Sky */
+        --card-bg: #1E293B;
+        /* Darker Slate */
+        --text-primary: #F8FAFC;
+        /* Cloud White */
+        --text-secondary: #94A3B8;
+        --accent-color: #E2E8F0;
+        --accent-gradient: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
+        --card-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.5);
     }
 }
 
