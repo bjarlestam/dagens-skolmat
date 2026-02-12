@@ -109,11 +109,9 @@ h2 {
 
 .status-badge {
     font-size: 0.8rem;
-    padding: 0.25rem 0.75rem;
-    border-radius: 50px;
-    background: rgba(0, 122, 255, 0.1);
-    color: var(--accent-color);
-    font-weight: 600;
+    color: var(--text-secondary);
+    font-style: italic;
+    opacity: 0.8;
 }
 
 .main-dish-container {

@@ -172,7 +172,7 @@ function processMenuData(doc, schoolKey, labelEl, dishEl, statusEl, upcomingList
         }
 
         dishEl.textContent = dishName;
-        statusEl.textContent = 'Uppdaterad';
+        statusEl.style.display = 'none'; // Hide loader when done
 
         // Populate Upcoming (Details View)
         // We list panels appearing AFTER the mainPanel in the customized list (but verify they are future)
