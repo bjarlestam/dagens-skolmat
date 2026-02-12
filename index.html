@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <h1>Skollunch</h1>
@@ -26,7 +28,15 @@
                 <p class="dish-label" id="karby-label">Dagens Lunch</p>
                 <h3 class="main-dish" id="karby-dish">Hämtar meny...</h3>
             </div>
-            <div class="details-view hidden" id="karby-details">
+
+            <div class="expand-indicator">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </div>
+
+            <div class="details-view" id="karby-details">
                 <h4>Kommande Dagar</h4>
                 <ul class="upcoming-list" id="karby-upcoming"></ul>
             </div>
@@ -42,7 +52,15 @@
                 <p class="dish-label" id="olympia-label">Dagens Lunch</p>
                 <h3 class="main-dish" id="olympia-dish">Hämtar meny...</h3>
             </div>
-            <div class="details-view hidden" id="olympia-details">
+
+            <div class="expand-indicator">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </div>
+
+            <div class="details-view" id="olympia-details">
                 <h4>Kommande Dagar</h4>
                 <ul class="upcoming-list" id="olympia-upcoming"></ul>
             </div>
@@ -55,4 +73,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>

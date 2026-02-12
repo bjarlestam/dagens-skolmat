@@ -197,6 +197,11 @@ function processMenuData(doc, schoolKey, labelEl, dishEl, statusEl, upcomingList
 }
 
 function toggleDetails(schoolKey) {
-    const detailsEl = document.getElementById(`${schoolKey}-details`);
-    detailsEl.classList.toggle('hidden');
+    const cardEl = document.getElementById(schoolKey);
+    cardEl.classList.toggle('expanded');
+
+    // We don't strictly need to toggle 'hidden' on detailsEl anymore 
+    // because CSS handles the visibility via max-height/opacity on .expanded
+    // However, keeping accessible attributes is good practice.
+    // Let's just rely on the CSS 'expanded' class for the visual toggle.
 }

@@ -73,11 +73,13 @@ h1 {
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     border: 1px solid transparent;
+    position: relative;
+    overflow: hidden;
 }
 
 .school-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 
 .school-card:active {
@@ -89,13 +91,13 @@ h1 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
-    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     padding-bottom: 0.8rem;
 }
 
 @media (prefers-color-scheme: dark) {
     .school-header {
-        border-bottom: 1px solid rgba(255,255,255,0.05);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
 }
 
@@ -134,17 +136,49 @@ h2 {
     color: var(--text-primary);
 }
 
+/* Expand Indicator */
+.expand-indicator {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    color: var(--text-secondary);
+    opacity: 0.5;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.school-card:hover .expand-indicator {
+    opacity: 1;
+    transform: translateY(2px);
+}
+
+.school-card.expanded .expand-indicator {
+    transform: rotate(180deg);
+    opacity: 1;
+}
+
 /* Details View */
 .details-view {
+    margin-top: 0;
+    padding-top: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.4s ease, margin-top 0.3s ease, padding-top 0.3s ease;
+    border-top: 1px solid transparent;
+}
+
+.school-card.expanded .details-view {
     margin-top: 1.5rem;
     padding-top: 1rem;
-    border-top: 1px solid rgba(0,0,0,0.05);
-    animation: fadeIn 0.3s ease;
+    max-height: 500px;
+    /* Arbitrary large height for transition */
+    opacity: 1;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 @media (prefers-color-scheme: dark) {
-    .details-view {
-        border-top: 1px solid rgba(255,255,255,0.05);
+    .school-card.expanded .details-view {
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
     }
 }
 
@@ -182,11 +216,6 @@ h2 {
 
 .hidden {
     display: none;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-5px); }
-    to { opacity: 1; transform: translateY(0); }
 }
 
 footer {
