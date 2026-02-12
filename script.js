@@ -152,13 +152,21 @@ function processMenuData(doc, schoolKey, labelEl, dishEl, statusEl, upcomingList
 
         if (!dishName) dishName = 'Ingen matsedel';
 
-        // Extract Date from Panel for Display
-        const dateHeader = mainPanel.querySelector('.panel-heading')?.textContent.trim();
+        // Helper to format date: "onsdag, 12 feb"
+        const formatSwedishDate = (date) => {
+            const weekday = date.toLocaleDateString('sv-SE', { weekday: 'long' });
+            const dayMonth = date.toLocaleDateString('sv-SE', { day: 'numeric', month: 'short' }).replace('.', '');
+            return `${weekday}, ${dayMonth}`;
+        };
 
-        if (dateHeader) {
-            // "Ons 12 feb" -> "ons 12 feb"
-            const cleanedDate = dateHeader.charAt(0).toLowerCase() + dateHeader.slice(1);
-            labelEl.textContent = `${labelText} • ${cleanedDate}`;
+        // Extract Date from Panel for Display
+        const panelDate = getPanelDate(mainPanel);
+
+        if (panelDate) {
+            labelEl.textContent = `${labelText} - ${formatSwedishDate(panelDate)}`;
+            // Lowercase the label labelText? User said "i morgon - fredag..."
+            // But typical UI is Title Case. "I Morgon - fredag, 13 feb" looks good.
+            // Let's stick to the prompt's lowercase style for the appended part.
         } else {
             labelEl.textContent = labelText;
         }
@@ -182,10 +190,11 @@ function processMenuData(doc, schoolKey, labelEl, dishEl, statusEl, upcomingList
         }
 
         upcomingPanels.forEach(p => {
-            const dateStr = p.querySelector('.panel-heading')?.textContent.trim().replace(/\s+/g, ' ');
+            const pDate = getPanelDate(p);
             const dishStr = p.querySelector('.app-daymenu-name')?.textContent.trim();
 
-            if (dateStr && dishStr) {
+            if (pDate && dishStr) {
+                const dateStr = formatSwedishDate(pDate);
                 const li = document.createElement('li');
                 li.className = 'upcoming-item';
                 li.innerHTML = `
