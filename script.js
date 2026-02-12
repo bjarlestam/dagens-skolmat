@@ -7,16 +7,9 @@ const SCHOOL_URLS = {
 const CORS_PROXY = 'https://api.codetabs.com/v1/proxy/?quest=';
 
 document.addEventListener('DOMContentLoaded', () => {
-    updateDateDisplay();
     fetchMenu('karby');
     fetchMenu('olympia');
 });
-
-function updateDateDisplay() {
-    const now = new Date();
-    const options = { weekday: 'long', day: 'numeric', month: 'long' };
-    document.getElementById('current-date-display').textContent = now.toLocaleDateString('sv-SE', options);
-}
 
 async function fetchMenu(schoolKey) {
     const statusEl = document.getElementById(`${schoolKey}-status`);
@@ -159,13 +152,25 @@ function processMenuData(doc, schoolKey, labelEl, dishEl, statusEl, upcomingList
 
         if (!dishName) dishName = 'Ingen matsedel';
 
+        // Extract Date from Panel for Display
+        const dateHeader = mainPanel.querySelector('.panel-heading')?.textContent.trim();
+
+        if (dateHeader) {
+            // "Ons 12 feb" -> "ons 12 feb"
+            const cleanedDate = dateHeader.charAt(0).toLowerCase() + dateHeader.slice(1);
+            labelEl.textContent = `${labelText} • ${cleanedDate}`;
+        } else {
+            labelEl.textContent = labelText;
+        }
+
         dishEl.textContent = dishName;
-        labelEl.textContent = labelText;
         statusEl.textContent = 'Uppdaterad';
 
         // Populate Upcoming (Details View)
-        // We list panels appearing AFTER the mainPanel in the customized list
+        // We list panels appearing AFTER the mainPanel in the customized list (but verify they are future)
         const mainIndex = panels.indexOf(mainPanel);
+
+        // We just take the next few available panels
         const upcomingPanels = panels.slice(mainIndex + 1, mainIndex + 4); // Next 3
 
         upcomingListEl.innerHTML = ''; // clear
