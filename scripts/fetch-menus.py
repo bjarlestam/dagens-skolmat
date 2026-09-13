@@ -12,6 +12,7 @@ import urllib.request
 import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
 
 SCHOOLS = {
@@ -31,6 +32,34 @@ HEADERS = {
 }
 
 STOCKHOLM = ZoneInfo("Europe/Stockholm")
+ALLOWED_HOSTS = {"docs.google.com", "mpi.mashie.matildaplatform.com"}
+GOOGLE_DOC_EXPORT_HOST_RE = re.compile(r"^doc-[a-z0-9-]+-docstext\.googleusercontent\.com$")
+MAX_HTML_BYTES = 2 * 1024 * 1024
+MAX_DOCUMENT_BYTES = 10 * 1024 * 1024
+MAX_MENU_IMAGES = 50
+MAX_IMAGE_BYTES = 10 * 1024 * 1024
+MAX_TOTAL_IMAGE_BYTES = 30 * 1024 * 1024
+
+
+def validate_source_url(url: str) -> None:
+    parsed = urlsplit(url)
+    hostname = parsed.hostname or ""
+    if (
+        parsed.scheme != "https"
+        or (hostname not in ALLOWED_HOSTS and not GOOGLE_DOC_EXPORT_HOST_RE.fullmatch(hostname))
+    ):
+        raise ValueError(f"Refusing untrusted menu URL: {url}")
+
+
+class AllowlistedRedirectHandler(urllib.request.HTTPRedirectHandler):
+    """Follow redirects only to the configured school-menu hosts."""
+
+    def redirect_request(self, request, fp, code, msg, headers, newurl):
+        validate_source_url(newurl)
+        return super().redirect_request(request, fp, code, msg, headers, newurl)
+
+
+URL_OPENER = urllib.request.build_opener(AllowlistedRedirectHandler())
 
 
 def normalize_mashie_url(url: str) -> str:
@@ -42,16 +71,23 @@ def normalize_mashie_url(url: str) -> str:
     return url
 
 
+def fetch_bytes(url: str, max_bytes: int) -> bytes:
+    request_url = normalize_mashie_url(url)
+    validate_source_url(request_url)
+    request = urllib.request.Request(request_url, headers=HEADERS)
+    with URL_OPENER.open(request, timeout=30) as response:
+        validate_source_url(response.geturl())
+        content_length = response.headers.get("Content-Length")
+        if content_length and int(content_length) > max_bytes:
+            raise ValueError("Menu response is too large")
+        content = response.read(max_bytes + 1)
+        if len(content) > max_bytes:
+            raise ValueError("Menu response is too large")
+        return content
+
+
 def fetch_html(url: str) -> str:
-    request = urllib.request.Request(normalize_mashie_url(url), headers=HEADERS)
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return response.read().decode()
-
-
-def fetch_bytes(url: str) -> bytes:
-    request = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return response.read()
+    return fetch_bytes(url, MAX_HTML_BYTES).decode()
 
 
 def parse_mashie_menu(html: str) -> list[dict]:
@@ -145,18 +181,27 @@ def parse_google_docs_menu(document: bytes) -> list[dict]:
 
     with tempfile.TemporaryDirectory() as temporary_directory:
         with zipfile.ZipFile(io.BytesIO(document)) as archive:
-            image_names = sorted(
-                (name for name in archive.namelist() if name.startswith("word/media/")),
-                key=lambda name: int(re.search(r"\d+", Path(name).stem).group()),
+            image_entries = sorted(
+                (entry for entry in archive.infolist() if entry.filename.startswith("word/media/")),
+                key=lambda entry: int(re.search(r"\d+", Path(entry.filename).stem).group()),
             )
-            for image_name in image_names:
-                image_path = Path(temporary_directory) / Path(image_name).name
-                image_path.write_bytes(archive.read(image_name))
+            if len(image_entries) > MAX_MENU_IMAGES:
+                raise ValueError("Menu document has too many images")
+            total_image_bytes = sum(entry.file_size for entry in image_entries)
+            if total_image_bytes > MAX_TOTAL_IMAGE_BYTES or any(
+                entry.file_size > MAX_IMAGE_BYTES for entry in image_entries
+            ):
+                raise ValueError("Menu document images are too large")
+
+            for image_entry in image_entries:
+                image_path = Path(temporary_directory) / Path(image_entry.filename).name
+                image_path.write_bytes(archive.read(image_entry))
                 result = subprocess.run(
                     [tesseract, str(image_path), "stdout", "-l", "eng", "--psm", "6"],
                     check=True,
                     capture_output=True,
                     text=True,
+                    timeout=30,
                 )
                 lines = [" ".join(line.split()) for line in result.stdout.splitlines() if line.strip()]
                 current_date: str | None = None
@@ -206,7 +251,7 @@ def main() -> int:
                 days = parse_mashie_menu(fetch_html(url))
                 source = normalize_mashie_url(url)
             elif school["provider"] == "google-docs":
-                days = parse_google_docs_menu(fetch_bytes(google_docx_url(url)))
+                days = parse_google_docs_menu(fetch_bytes(google_docx_url(url), MAX_DOCUMENT_BYTES))
                 source = url
             else:
                 raise ValueError(f"Unknown menu provider: {school['provider']}")

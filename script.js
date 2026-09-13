@@ -92,10 +92,13 @@ function processMenuData(days, labelEl, dishEl, statusEl, upcomingListEl) {
     upcomingEntries.forEach((entry) => {
         const li = document.createElement('li');
         li.className = 'upcoming-item';
-        li.innerHTML = `
-            <span class="upcoming-date">${formatSwedishDate(entry.date)}</span>
-            <span class="upcoming-dish">${entry.dish}</span>
-        `;
+        const dateSpan = document.createElement('span');
+        dateSpan.className = 'upcoming-date';
+        dateSpan.textContent = formatSwedishDate(entry.date);
+        const dishSpan = document.createElement('span');
+        dishSpan.className = 'upcoming-dish';
+        dishSpan.textContent = entry.dish;
+        li.append(dateSpan, dishSpan);
         upcomingListEl.appendChild(li);
     });
 }
