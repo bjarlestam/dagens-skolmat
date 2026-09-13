@@ -11,6 +11,7 @@ import tempfile
 import urllib.request
 import zipfile
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
@@ -22,7 +23,7 @@ SCHOOLS = {
     },
     "olympia": {
         "provider": "mashie",
-        "url": "https://mpi.mashie.matildaplatform.com/public/menu/Vallentuna%20kommun/b22e74ea",
+        "url": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
     },
 }
 
@@ -64,8 +65,6 @@ URL_OPENER = urllib.request.build_opener(AllowlistedRedirectHandler())
 
 def normalize_mashie_url(url: str) -> str:
     url = url.rstrip(" /")
-    if "/app/" in url:
-        url = url.replace("/app/", "/menu/")
     if "mashie.com" in url:
         url = url.replace("mashie.com", "mashie.matildaplatform.com")
     return url
@@ -90,10 +89,92 @@ def fetch_html(url: str) -> str:
     return fetch_bytes(url, MAX_HTML_BYTES).decode()
 
 
+class MashiePanelParser(HTMLParser):
+    """Read Mashie's server-rendered daily menu panels without executing page JavaScript."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.panels: list[dict[str, str]] = []
+        self._panel_depth = 0
+        self._current_panel: dict[str, str] | None = None
+        self._collecting: str | None = None
+        self._collect_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        classes = set(dict(attrs).get("class", "").split())
+        if tag == "div" and "panel" in classes and self._panel_depth == 0:
+            self._panel_depth = 1
+            self._current_panel = {"header": "", "dish": ""}
+        elif self._panel_depth and tag == "div":
+            self._panel_depth += 1
+
+        if self._panel_depth and self._collecting is None and self._current_panel:
+            if "panel-heading" in classes:
+                self._collecting = "header"
+                self._collect_depth = 1
+            elif "app-daymenu-name" in classes and not self._current_panel["dish"]:
+                self._collecting = "dish"
+                self._collect_depth = 1
+        elif self._collecting:
+            self._collect_depth += 1
+
+    def handle_endtag(self, tag: str) -> None:
+        if self._collecting:
+            self._collect_depth -= 1
+            if self._collect_depth == 0:
+                self._collecting = None
+
+        if self._panel_depth and tag == "div":
+            self._panel_depth -= 1
+            if self._panel_depth == 0 and self._current_panel:
+                self.panels.append(self._current_panel)
+                self._current_panel = None
+
+    def handle_data(self, data: str) -> None:
+        if self._collecting and self._current_panel:
+            self._current_panel[self._collecting] += data
+
+
+SWEDISH_MONTHS = {
+    "jan": 1,
+    "feb": 2,
+    "mar": 3,
+    "apr": 4,
+    "maj": 5,
+    "jun": 6,
+    "jul": 7,
+    "aug": 8,
+    "sep": 9,
+    "okt": 10,
+    "nov": 11,
+    "dec": 12,
+}
+
+
+def parse_mashie_panel_menu(html: str) -> list[dict]:
+    parser = MashiePanelParser()
+    parser.feed(html)
+    days: list[dict] = []
+
+    for panel in parser.panels:
+        header = " ".join(panel["header"].split()).lower()
+        dish = " ".join(panel["dish"].split())
+        match = re.search(r"(\d{1,2})\s+([a-zåäö]+)", header)
+        if not match or not dish:
+            continue
+        month = SWEDISH_MONTHS.get(match.group(2)[:3])
+        if not month:
+            continue
+        day = int(match.group(1))
+        days.append({"date": f"{infer_year(month, day):04d}-{month:02d}-{day:02d}", "dish": dish})
+
+    return sorted(days, key=lambda item: item["date"])
+
+
 def parse_mashie_menu(html: str) -> list[dict]:
     script_match = re.search(r"<script>\s*(var\s+\w+\s*=\s*\{.*?</script>)", html, re.DOTALL)
     if not script_match:
-        raise ValueError("Could not find menu script in Mashie response")
+        return parse_mashie_panel_menu(html)
 
     script_body = script_match.group(1)
     json_start = script_body.find("{")
@@ -241,8 +322,15 @@ def parse_google_docs_menu(document: bytes) -> list[dict]:
 
 def main() -> int:
     output_path = Path(__file__).resolve().parent.parent / "data" / "menus.json"
+    existing_menus: dict[str, dict] = {}
+    if output_path.exists():
+        try:
+            existing_menus = json.loads(output_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            print("Could not read existing menu cache", file=sys.stderr)
     menus: dict[str, dict] = {}
     errors: list[str] = []
+    successful_schools: set[str] = set()
 
     for school_key, school in SCHOOLS.items():
         try:
@@ -262,10 +350,13 @@ def main() -> int:
                 "updated": datetime.now(tz=STOCKHOLM).isoformat(),
                 "days": days,
             }
+            successful_schools.add(school_key)
         except Exception as exc:  # noqa: BLE001 - report all fetch failures
             errors.append(f"{school_key}: {exc}")
+            if school_key in existing_menus:
+                menus[school_key] = existing_menus[school_key]
 
-    if not menus:
+    if not successful_schools:
         print("\n".join(errors), file=sys.stderr)
         return 1
 
@@ -275,7 +366,6 @@ def main() -> int:
 
     if errors:
         print("\n".join(errors), file=sys.stderr)
-        return 1
 
     return 0
 
