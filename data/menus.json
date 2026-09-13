@@ -1,0 +1,396 @@
+{
+  "kunskapsskolan-taby": {
+    "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
+    "updated": "2026-09-13T21:44:59.251290+02:00",
+    "days": [
+      {
+        "date": "2026-03-16",
+        "dish": "Ortagards kycklingfilegryta med ris"
+      },
+      {
+        "date": "2026-03-17",
+        "dish": "Italiensk minestronnesoppa \" nétfars, tomat, pasta\""
+      },
+      {
+        "date": "2026-03-18",
+        "dish": "Kokt falukorv med mild senapssas, kokt potatis"
+      },
+      {
+        "date": "2026-03-19",
+        "dish": "Spaghetti med ost-rdktkalkonsas"
+      },
+      {
+        "date": "2026-03-20",
+        "dish": "Kebabkryddad kycklingjarpe med ugnspotatis, tomatsas"
+      },
+      {
+        "date": "2026-03-23",
+        "dish": "Chili con carne med ris"
+      },
+      {
+        "date": "2026-03-24",
+        "dish": "Schnitzel med kall vitlokss8s och ugnspotatis"
+      },
+      {
+        "date": "2026-03-25",
+        "dish": "Kyckling i curry med ris"
+      },
+      {
+        "date": "2026-03-26",
+        "dish": "Kéttbullar med graddsds, lingon och kokt potatis"
+      },
+      {
+        "date": "2026-03-27",
+        "dish": "Pasta Bolognese med ketchup"
+      },
+      {
+        "date": "2026-03-31",
+        "dish": "Kycklingnuggets med kall currysas och ris"
+      },
+      {
+        "date": "2026-04-01",
+        "dish": "Ugnsgratinerad falukorv med potatismos"
+      },
+      {
+        "date": "2026-04-02",
+        "dish": "Kebabgryta med ris"
+      },
+      {
+        "date": "2026-04-12",
+        "dish": "Prinskorv med stuvadspenat och kokt potatis"
+      },
+      {
+        "date": "2026-04-13",
+        "dish": "Kyckling i curry med ris,"
+      },
+      {
+        "date": "2026-04-14",
+        "dish": "Kéttbullar med graddsds, lingon och kokt potatis"
+      },
+      {
+        "date": "2026-04-15",
+        "dish": "Pasta bolognese med ketchup"
+      },
+      {
+        "date": "2026-04-16",
+        "dish": "Nuggets med sweet chili och ris"
+      },
+      {
+        "date": "2026-04-17",
+        "dish": "Potatis-och kéttfarsgrating"
+      },
+      {
+        "date": "2026-04-20",
+        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
+      },
+      {
+        "date": "2026-04-22",
+        "dish": "Panerad alaska-filet med kall citrussas. Kokt potatis"
+      },
+      {
+        "date": "2026-04-23",
+        "dish": "Lunchkory med bechamelsas. Kokt potatis"
+      },
+      {
+        "date": "2026-04-24",
+        "dish": "Comflakespanerad kycklingburgare med tillbehor"
+      },
+      {
+        "date": "2026-04-27",
+        "dish": "Kramig korvstroganoff med ris"
+      },
+      {
+        "date": "2026-04-28",
+        "dish": "Cordonbleu schnitzel med kryddig tomatsas och ugnsrostad potatis"
+      },
+      {
+        "date": "2026-04-29",
+        "dish": "Nasigoreng med kyckling och currydipp"
+      },
+      {
+        "date": "2026-04-30",
+        "dish": "Spaghetti med rostbiffsas"
+      },
+      {
+        "date": "2026-05-04",
+        "dish": "Kebabgryta med feferoni och basmatiris"
+      },
+      {
+        "date": "2026-05-05",
+        "dish": "Kycklinggryta med basilika,tomat och gradde"
+      },
+      {
+        "date": "2026-05-06",
+        "dish": "Pasta bolognese"
+      },
+      {
+        "date": "2026-05-07",
+        "dish": "Kéttbullar, gréddss,potatis och lingonsyit"
+      },
+      {
+        "date": "2026-05-08",
+        "dish": "Kycklingsnitzel med sweetchili. Ugnspotatis"
+      },
+      {
+        "date": "2026-05-11",
+        "dish": "Tomatsoppa med risoni och ostmacka"
+      },
+      {
+        "date": "2026-05-12",
+        "dish": "Kyckling schnitzel med pepparsas och ugnspotatis"
+      },
+      {
+        "date": "2026-05-13",
+        "dish": "Varmkorv med potatismos"
+      },
+      {
+        "date": "2026-05-25",
+        "dish": "Kéttfarsréra med vitkal,tomat och dijonsenap. Ris"
+      },
+      {
+        "date": "2026-05-26",
+        "dish": "Pastasallad med rostbiff"
+      },
+      {
+        "date": "2026-05-27",
+        "dish": "Stekt ris med kyckling och grénsaker"
+      },
+      {
+        "date": "2026-06-01",
+        "dish": "Kyckling i tomat-och basilikasas"
+      },
+      {
+        "date": "2026-06-02",
+        "dish": "Chicken nuggets med sétsursas och ris"
+      },
+      {
+        "date": "2026-06-03",
+        "dish": "Kéttbullar med graddsas, koktpotatis och lingonsylt"
+      },
+      {
+        "date": "2026-06-04",
+        "dish": "Stroganoff pa strimlad flaiskbog med ris"
+      },
+      {
+        "date": "2026-06-05",
+        "dish": "Potatis-och kottfarsgratang"
+      },
+      {
+        "date": "2026-08-17",
+        "dish": "Mexicansk chili med smaksatt ris och nachips"
+      },
+      {
+        "date": "2026-08-18",
+        "dish": "Kokt falukorv med vit sas och kokt potatis"
+      },
+      {
+        "date": "2026-08-19",
+        "dish": "Kéttbullar med stuvade makaroner"
+      },
+      {
+        "date": "2026-08-20",
+        "dish": "Cowboysoppa med apple"
+      },
+      {
+        "date": "2026-08-24",
+        "dish": "Indisk kycklinggryta med basmatiris"
+      },
+      {
+        "date": "2026-08-25",
+        "dish": "Panerad fisk med dill-remouladesas, kokt potatis"
+      },
+      {
+        "date": "2026-08-26",
+        "dish": "Korvsauté med aijvar och cremefraiche, ris"
+      },
+      {
+        "date": "2026-08-27",
+        "dish": "Spaghetti bolognese"
+      },
+      {
+        "date": "2026-08-28",
+        "dish": "Crispy chicken burger med greengarlic och kiyftpotatis"
+      },
+      {
+        "date": "2026-08-31",
+        "dish": "Kycklingbitar med currysas och ris"
+      },
+      {
+        "date": "2026-09-01",
+        "dish": "Potatis-och kottfarsgratang"
+      },
+      {
+        "date": "2026-09-02",
+        "dish": "Kéttbullar med graddss, lingon och potatismos"
+      },
+      {
+        "date": "2026-09-03",
+        "dish": "Pasta Carbonara med rokt kalkon"
+      },
+      {
+        "date": "2026-09-04",
+        "dish": "Schnitzel med bearnaise och ugnspotatis"
+      },
+      {
+        "date": "2026-09-13",
+        "dish": "Panerad fisk med stuvad spenat. Kokt potatis"
+      },
+      {
+        "date": "2026-09-14",
+        "dish": "Chili con carne med ris"
+      },
+      {
+        "date": "2026-09-15",
+        "dish": "Varmkorv med potatismos och ketchup"
+      },
+      {
+        "date": "2026-09-16",
+        "dish": "Kycklinggryta sweet-lime med basmatiris"
+      },
+      {
+        "date": "2026-09-17",
+        "dish": "Spaghetti pollognese med basilika"
+      },
+      {
+        "date": "2026-09-18",
+        "dish": "Kebab kryddad jarpe med spiskumnmin-tomatsas och ugnspotatis"
+      },
+      {
+        "date": "2027-01-13",
+        "dish": "Provencalsk kycklinggryta ” Gradde, orter, vitlok \" ris"
+      },
+      {
+        "date": "2027-01-14",
+        "dish": "Tacosoppa ” notfars, spiskummin, gronsaker”"
+      },
+      {
+        "date": "2027-01-15",
+        "dish": "Panerad fisk med kall currycremé, kokt potatis"
+      },
+      {
+        "date": "2027-01-16",
+        "dish": "Spaghetti bolognese"
+      },
+      {
+        "date": "2027-01-19",
+        "dish": "Potatis-och kottfarsgratang"
+      },
+      {
+        "date": "2027-01-21",
+        "dish": "Spaghetti med ost-och rokt kycklingsas"
+      },
+      {
+        "date": "2027-01-22",
+        "dish": "Apelsinkyckling med ris"
+      },
+      {
+        "date": "2027-01-23",
+        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
+      },
+      {
+        "date": "2027-01-26",
+        "dish": "Wienerkorv med potatismos, senap och ketchup"
+      },
+      {
+        "date": "2027-01-28",
+        "dish": "Mexicansk nétfarsgryta med paprika och graddfil"
+      },
+      {
+        "date": "2027-01-29",
+        "dish": "Pastagratang med kyckling,vitlok parmesan och"
+      },
+      {
+        "date": "2027-02-02",
+        "dish": "Sweet Marocansk kycklinggryta serveras med ris"
+      },
+      {
+        "date": "2027-02-03",
+        "dish": "Ugnsgratinerad falukorv med kokt potatis"
+      },
+      {
+        "date": "2027-02-04",
+        "dish": "Pasta penne med ost & skinksas"
+      },
+      {
+        "date": "2027-02-05",
+        "dish": "Potatis-Purjoldksoppa med bréd och ost"
+      },
+      {
+        "date": "2027-02-06",
+        "dish": "Wok med aggnudlar, kyckling, gronsaker, chili"
+      },
+      {
+        "date": "2027-02-09",
+        "dish": "Panerad fisk med remouladsds och kokt potatis"
+      },
+      {
+        "date": "2027-02-11",
+        "dish": "Korvstroganoff med ris"
+      },
+      {
+        "date": "2027-02-12",
+        "dish": "Pasta Carbonara"
+      },
+      {
+        "date": "2027-02-13",
+        "dish": "Kéttbullar med graddsas, lingon och potatismos"
+      },
+      {
+        "date": "2027-02-16",
+        "dish": "Kebabgryta med ris"
+      },
+      {
+        "date": "2027-02-17",
+        "dish": "Kycklingnuggets med sdtsur ss och ugnspotatis"
+      },
+      {
+        "date": "2027-02-18",
+        "dish": "Cowboysoppa med frukt"
+      },
+      {
+        "date": "2027-02-20",
+        "dish": "Kokets lasagne"
+      },
+      {
+        "date": "2027-03-02",
+        "dish": "Kyckling i tomat-och basilikasas"
+      },
+      {
+        "date": "2027-03-03",
+        "dish": "Varmkorv med potatismos"
+      },
+      {
+        "date": "2027-03-04",
+        "dish": "Schnitzel med sweet chilimajonas"
+      },
+      {
+        "date": "2027-03-05",
+        "dish": "Ost-och skink gratinerad tortellini"
+      },
+      {
+        "date": "2027-03-06",
+        "dish": "Pulled pork med tortillasbréd och rédkebabsas"
+      },
+      {
+        "date": "2027-03-09",
+        "dish": "Chili med paprika och majs, graddfil och ris"
+      },
+      {
+        "date": "2027-03-10",
+        "dish": "K6ttbullar med stuvade makaroner"
+      },
+      {
+        "date": "2027-03-11",
+        "dish": "Sprédbakad hokifile med kalll basilikasas. Kokt potatis"
+      },
+      {
+        "date": "2027-03-12",
+        "dish": "Pastagrating med flaskkarré och champinjoner"
+      },
+      {
+        "date": "2027-03-13",
+        "dish": "Kyckling \"cordon bleu” med tomatsas och ugnspotatis"
+      }
+    ]
+  }
+}
