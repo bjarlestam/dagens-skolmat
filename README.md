@@ -12,4 +12,4 @@ python3 scripts/fetch-menus.py
 
 ## Automatisk uppdatering
 
-GitHub Actions uppdaterar menyerna varje vardag klockan 05:30 svensk tid och committar bara `data/menus.json` när innehållet har ändrats. Workflowet kan även köras manuellt från fliken **Actions** på GitHub.
+GitHub Actions uppdaterar menyerna varje vardag klockan 05:30 och 10:30 svensk tid och committar bara `data/menus.json` när innehållet har ändrats. Workflowet kan även köras manuellt från fliken **Actions** på GitHub.
