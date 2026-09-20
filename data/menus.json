@@ -1,7 +1,7 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-09-20T13:03:51.561437+02:00",
+    "updated": "2026-09-20T13:10:48.663453+02:00",
     "days": [
       {
         "date": "2026-03-23",
@@ -9,7 +9,7 @@
       },
       {
         "date": "2026-03-24",
-        "dish": "Schnitzel med kall vitlokss8s och ugnspotatis"
+        "dish": "Schnitzel med kall vitlékss8s och ugnspotatis"
       },
       {
         "date": "2026-03-25",
@@ -53,7 +53,7 @@
       },
       {
         "date": "2026-04-16",
-        "dish": "Nuggets med sweet chili och ris"
+        "dish": "Nuggets med sweet chili och ris,"
       },
       {
         "date": "2026-04-17",
@@ -61,7 +61,7 @@
       },
       {
         "date": "2026-04-20",
-        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
+        "dish": "Thaigryta med kyckling, lime och curry. Basmatiris"
       },
       {
         "date": "2026-04-22",
@@ -89,7 +89,7 @@
       },
       {
         "date": "2026-04-30",
-        "dish": "Kebabkryddad kycklingjarpe med tomatsalsa,ugnspotatis"
+        "dish": "Spaghetti med rostbiffsas"
       },
       {
         "date": "2026-05-04",
@@ -125,7 +125,7 @@
       },
       {
         "date": "2026-05-25",
-        "dish": "Kéttfarsréra med vitkal,tomat och dijonsenap. Ris"
+        "dish": "Kéttfarsrdra med vitkal,tomat och dijonsenap. Ris"
       },
       {
         "date": "2026-05-26",
@@ -149,7 +149,7 @@
       },
       {
         "date": "2026-06-04",
-        "dish": "Stroganoff pa strimlad flaiskbog med ris"
+        "dish": "Stroganoff pa strimlad flaskbog med ris"
       },
       {
         "date": "2026-06-05",
@@ -193,7 +193,7 @@
       },
       {
         "date": "2026-08-31",
-        "dish": "Kycklingbitar med currysas och ris"
+        "dish": "Kycklingbitar med currysas och ris,"
       },
       {
         "date": "2026-09-01",
@@ -209,7 +209,7 @@
       },
       {
         "date": "2026-09-04",
-        "dish": "Schnitzel med bearnaise och ugnspotatis"
+        "dish": "Schnitzel med bearnaise och ugnspotatis,"
       },
       {
         "date": "2026-09-13",
@@ -217,15 +217,15 @@
       },
       {
         "date": "2026-09-14",
-        "dish": "Korvgryta med rotfrukter och tomat. Ris"
+        "dish": "Chili con carne med ris"
       },
       {
         "date": "2026-09-15",
-        "dish": "Kall nudelsallad med kyckling, ingefara, soja, sweetchili"
+        "dish": "Varmkorv med potatismos och ketchup"
       },
       {
         "date": "2026-09-16",
-        "dish": "Lasagne al forno"
+        "dish": "Kycklinggryta sweet-lime med basmatiris"
       },
       {
         "date": "2026-09-17",
@@ -261,7 +261,7 @@
       },
       {
         "date": "2027-01-14",
-        "dish": "Tacosoppa ” notfars, spiskummin, gronsaker”"
+        "dish": "Tacosoppa \" notfars, spiskummin, gronsaker”"
       },
       {
         "date": "2027-01-15",
@@ -282,10 +282,6 @@
       {
         "date": "2027-01-22",
         "dish": "Apelsinkyckling med ris"
-      },
-      {
-        "date": "2027-01-23",
-        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
       },
       {
         "date": "2027-01-26",
@@ -381,11 +377,11 @@
       },
       {
         "date": "2027-03-11",
-        "dish": "Sprédbakad hokifile med kalll basilikasas. Kokt potatis"
+        "dish": "Sprédbakad hokifile med kall basilikasas. Kokt potatis"
       },
       {
         "date": "2027-03-12",
-        "dish": "Pastagrating med flaskkarré och champinjoner"
+        "dish": "Pastagratng med flaskkarré och champinjoner"
       },
       {
         "date": "2027-03-13",
@@ -415,7 +411,7 @@
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-09-20T13:03:51.740219+02:00",
+    "updated": "2026-09-20T13:10:49.343512+02:00",
     "days": [
       {
         "date": "2026-09-21",
