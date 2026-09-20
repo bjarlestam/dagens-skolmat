@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Fetch school lunch menus from Mashie (Matilda Platform)."""
 
+from __future__ import annotations
+
 import io
 import json
 import re

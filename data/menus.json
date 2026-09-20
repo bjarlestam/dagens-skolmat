@@ -1,35 +1,15 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-09-13T22:22:26.072853+02:00",
+    "updated": "2026-09-20T13:03:51.561437+02:00",
     "days": [
-      {
-        "date": "2026-03-16",
-        "dish": "Ortagards kycklingfilegryta med ris"
-      },
-      {
-        "date": "2026-03-17",
-        "dish": "Italiensk minestronnesoppa \" nétfars, tomat, pasta\""
-      },
-      {
-        "date": "2026-03-18",
-        "dish": "Kokt falukorv med mild senapssas, kokt potatis"
-      },
-      {
-        "date": "2026-03-19",
-        "dish": "Spaghetti med ost-rdktkalkonsas"
-      },
-      {
-        "date": "2026-03-20",
-        "dish": "Kebabkryddad kycklingjarpe med ugnspotatis, tomatsas"
-      },
       {
         "date": "2026-03-23",
         "dish": "Chili con carne med ris"
       },
       {
         "date": "2026-03-24",
-        "dish": "Schnitzel med kall vitlékss8s och ugnspotatis"
+        "dish": "Schnitzel med kall vitlokss8s och ugnspotatis"
       },
       {
         "date": "2026-03-25",
@@ -73,7 +53,7 @@
       },
       {
         "date": "2026-04-16",
-        "dish": "Nuggets med sweet chili och ris,"
+        "dish": "Nuggets med sweet chili och ris"
       },
       {
         "date": "2026-04-17",
@@ -89,7 +69,7 @@
       },
       {
         "date": "2026-04-23",
-        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
+        "dish": "Lunchkory med bechamelsas. Kokt potatis"
       },
       {
         "date": "2026-04-24",
@@ -109,7 +89,7 @@
       },
       {
         "date": "2026-04-30",
-        "dish": "Spaghetti med rostbiffsas"
+        "dish": "Kebabkryddad kycklingjarpe med tomatsalsa,ugnspotatis"
       },
       {
         "date": "2026-05-04",
@@ -145,7 +125,7 @@
       },
       {
         "date": "2026-05-25",
-        "dish": "Kéttfarsrdra med vitkal,tomat och dijonsenap. Ris"
+        "dish": "Kéttfarsréra med vitkal,tomat och dijonsenap. Ris"
       },
       {
         "date": "2026-05-26",
@@ -169,7 +149,7 @@
       },
       {
         "date": "2026-06-04",
-        "dish": "Stroganoff pa strimlad flaskbog med ris"
+        "dish": "Stroganoff pa strimlad flaiskbog med ris"
       },
       {
         "date": "2026-06-05",
@@ -213,7 +193,7 @@
       },
       {
         "date": "2026-08-31",
-        "dish": "Kycklingbitar med currysas och ris,"
+        "dish": "Kycklingbitar med currysas och ris"
       },
       {
         "date": "2026-09-01",
@@ -229,7 +209,7 @@
       },
       {
         "date": "2026-09-04",
-        "dish": "Schnitzel med bearnaise och ugnspotatis,"
+        "dish": "Schnitzel med bearnaise och ugnspotatis"
       },
       {
         "date": "2026-09-13",
@@ -256,12 +236,32 @@
         "dish": "Kebab kryddad jarpe med spiskumnmin-tomatsas och ugnspotatis"
       },
       {
+        "date": "2026-09-21",
+        "dish": "Tacogratéing med nachos och ris"
+      },
+      {
+        "date": "2026-09-22",
+        "dish": "Choritzo med choronsas och ugnspotatis"
+      },
+      {
+        "date": "2026-09-23",
+        "dish": "Korvstroganoff med ris"
+      },
+      {
+        "date": "2026-09-24",
+        "dish": "Pasta med kyckling i tomat-och basilikasas"
+      },
+      {
+        "date": "2026-09-25",
+        "dish": "Chicken nuggets med sweet chili"
+      },
+      {
         "date": "2027-01-13",
         "dish": "Provencalsk kycklinggryta ” Gradde, orter, vitlok \" ris"
       },
       {
         "date": "2027-01-14",
-        "dish": "Tacosoppa \" notfars, spiskummin, gronsaker”"
+        "dish": "Tacosoppa ” notfars, spiskummin, gronsaker”"
       },
       {
         "date": "2027-01-15",
@@ -282,6 +282,10 @@
       {
         "date": "2027-01-22",
         "dish": "Apelsinkyckling med ris"
+      },
+      {
+        "date": "2027-01-23",
+        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
       },
       {
         "date": "2027-01-26",
@@ -377,15 +381,61 @@
       },
       {
         "date": "2027-03-11",
-        "dish": "Sprédbakad hokifile med kall basilikasas. Kokt potatis"
+        "dish": "Sprédbakad hokifile med kalll basilikasas. Kokt potatis"
       },
       {
         "date": "2027-03-12",
-        "dish": "Pastagratng med flaskkarré och champinjoner"
+        "dish": "Pastagrating med flaskkarré och champinjoner"
       },
       {
         "date": "2027-03-13",
         "dish": "Kyckling \"cordon bleu” med tomatsas och ugnspotatis"
+      },
+      {
+        "date": "2027-03-16",
+        "dish": "Ortagards kycklingfilegryta med ris"
+      },
+      {
+        "date": "2027-03-17",
+        "dish": "Italiensk minestronnesoppa \" nétfars, tomat, pasta\""
+      },
+      {
+        "date": "2027-03-18",
+        "dish": "Kokt falukorv med mild senapssas, kokt potatis"
+      },
+      {
+        "date": "2027-03-19",
+        "dish": "Spaghetti med ost-rdktkalkonsas"
+      },
+      {
+        "date": "2027-03-20",
+        "dish": "Kebabkryddad kycklingjarpe med ugnspotatis, tomatsas"
+      }
+    ]
+  },
+  "olympia": {
+    "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
+    "updated": "2026-09-20T13:03:51.740219+02:00",
+    "days": [
+      {
+        "date": "2026-09-21",
+        "dish": "Varmkorv med potatismos och bostongurka G"
+      },
+      {
+        "date": "2026-09-22",
+        "dish": "Indisk linsgryta (Daal) serveras med ris och örtyoghurt G"
+      },
+      {
+        "date": "2026-09-23",
+        "dish": "Pasta med tonfisksås G"
+      },
+      {
+        "date": "2026-09-24",
+        "dish": "Grönsaksgulasch serveras gräddfil G"
+      },
+      {
+        "date": "2026-09-25",
+        "dish": "Chili sin carne serveras med ris och tortilla G"
       }
     ]
   }

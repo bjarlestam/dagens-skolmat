@@ -2,8 +2,8 @@ name: Uppdatera skolmenyer
 
 on:
   schedule:
-    # Kör vid 05:30 och 10:30 svensk tid. UTC-tiderna täcker vinter- och sommartid.
-    # Båda tiderna startas och jobbet nedan väljer rätt körning med Europe/Stockholm.
+    # GitHub Actions använder UTC. Kör på båda sidor om svensk sommar-/vintertid
+    # så att menyn uppdateras på morgonen och förmiddagen året runt.
     - cron: "30 3,4,8,9 * * 1-5"
   workflow_dispatch:
 
@@ -15,25 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  scheduled-time:
-    runs-on: ubuntu-latest
-    permissions: {}
-    outputs:
-      run: ${{ steps.schedule.outputs.run }}
-
-    steps:
-      - name: Kontrollera om det är schemalagd svensk körtid
-        id: schedule
-        run: |
-          if [ "${{ github.event_name }}" = "schedule" ] && ! [[ "$(TZ=Europe/Stockholm date +%H:%M)" =~ ^(05:30|10:30)$ ]]; then
-            echo "run=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          fi
-
   fetch-menus:
-    needs: scheduled-time
-    if: needs.scheduled-time.outputs.run == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: read
