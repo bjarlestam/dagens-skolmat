@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-09-21T17:59:24.455558+02:00",
+    "updated": "2026-09-22T10:44:33.960287+02:00",
     "days": [
-      {
-        "date": "2026-03-23",
-        "dish": "Chili con carne med ris"
-      },
       {
         "date": "2026-03-24",
         "dish": "Schnitzel med kall vitlékss8s och ugnspotatis"
@@ -61,7 +57,7 @@
       },
       {
         "date": "2026-04-20",
-        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
+        "dish": "Thaigryta med kyckling, lime och curry. Basmatiris"
       },
       {
         "date": "2026-04-22",
@@ -69,7 +65,7 @@
       },
       {
         "date": "2026-04-23",
-        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
+        "dish": "Lunchkory med bechamelsas. Kokt potatis"
       },
       {
         "date": "2026-04-24",
@@ -406,20 +402,24 @@
       {
         "date": "2027-03-20",
         "dish": "Kebabkryddad kycklingjarpe med ugnspotatis, tomatsas"
+      },
+      {
+        "date": "2027-03-23",
+        "dish": "Chili con carne med ris"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-09-21T17:59:25.285423+02:00",
+    "updated": "2026-09-22T10:44:34.843440+02:00",
     "days": [
       {
         "date": "2026-09-21",
         "dish": "Varmkorv med potatismos och bostongurka G"
       },
       {
-        "date": "2026-09-21",
-        "dish": "Varmkorv med potatismos och bostongurka G"
+        "date": "2026-09-22",
+        "dish": "Indisk linsgryta (Daal) serveras med ris och örtyoghurt G"
       },
       {
         "date": "2026-09-22",
@@ -436,6 +436,26 @@
       {
         "date": "2026-09-25",
         "dish": "Chili sin carne serveras med ris och tortilla G"
+      },
+      {
+        "date": "2026-09-28",
+        "dish": "Kycklingstroganoff serveras med ris G"
+      },
+      {
+        "date": "2026-09-29",
+        "dish": "Pyttipanna,inlagda rödbetor"
+      },
+      {
+        "date": "2026-09-30",
+        "dish": "Sprödbakad fisk serveras med en kall ört och citronsås samt kokt potatis G"
+      },
+      {
+        "date": "2026-10-01",
+        "dish": "Krämig lins- och morotssoppa med kokosmjölk G"
+      },
+      {
+        "date": "2026-10-02",
+        "dish": "Köttfärssås, spagetti"
       }
     ]
   }
