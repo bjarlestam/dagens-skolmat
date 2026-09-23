@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-09-22T16:07:06.185977+02:00",
+    "updated": "2026-09-23T10:46:11.976498+02:00",
     "days": [
-      {
-        "date": "2026-03-24",
-        "dish": "Schnitzel med kall vitlékss8s och ugnspotatis"
-      },
       {
         "date": "2026-03-25",
         "dish": "Kyckling i curry med ris"
@@ -252,6 +248,18 @@
         "dish": "Chicken nuggets med sweet chili"
       },
       {
+        "date": "2026-09-28",
+        "dish": "Kryddig kéttfarsréra. Basmatiris"
+      },
+      {
+        "date": "2026-10-01",
+        "dish": "Ugnsfalukorv med apple, lok, senap, ost. Kokt potatis"
+      },
+      {
+        "date": "2026-10-02",
+        "dish": "Kokets fars/fetaostbiffar med kramig tomatsas"
+      },
+      {
         "date": "2027-01-13",
         "dish": "Provencalsk kycklinggryta ” Gradde, orter, vitlok \" ris"
       },
@@ -406,12 +414,16 @@
       {
         "date": "2027-03-23",
         "dish": "Chili con carne med ris"
+      },
+      {
+        "date": "2027-03-24",
+        "dish": "Schnitzel med kall vitlékss8s och ugnspotatis"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-09-22T16:07:06.871089+02:00",
+    "updated": "2026-09-23T10:46:12.945574+02:00",
     "days": [
       {
         "date": "2026-09-21",
@@ -422,8 +434,8 @@
         "dish": "Indisk linsgryta (Daal) serveras med ris och örtyoghurt G"
       },
       {
-        "date": "2026-09-22",
-        "dish": "Indisk linsgryta (Daal) serveras med ris och örtyoghurt G"
+        "date": "2026-09-23",
+        "dish": "Pasta med tonfisksås G"
       },
       {
         "date": "2026-09-23",
