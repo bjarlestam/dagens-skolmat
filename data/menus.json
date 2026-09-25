@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-09-24T16:18:33.170874+02:00",
+    "updated": "2026-09-25T11:01:03.738266+02:00",
     "days": [
-      {
-        "date": "2026-03-26",
-        "dish": "Kéttbullar med graddsds, lingon och kokt potatis"
-      },
       {
         "date": "2026-03-27",
         "dish": "Pasta Bolognese med ketchup"
@@ -205,15 +201,15 @@
       },
       {
         "date": "2026-09-14",
-        "dish": "Chili con carne med ris"
+        "dish": "Korvgryta med rotfrukter och tomat. Ris"
       },
       {
         "date": "2026-09-15",
-        "dish": "Varmkorv med potatismos och ketchup"
+        "dish": "Kall nudelsallad med kyckling, ingefara, soja, sweetchili"
       },
       {
         "date": "2026-09-16",
-        "dish": "Kycklinggryta sweet-lime med basmatiris"
+        "dish": "Lasagne al forno"
       },
       {
         "date": "2026-09-17",
@@ -418,12 +414,16 @@
       {
         "date": "2027-03-25",
         "dish": "Kyckling i curry med ris"
+      },
+      {
+        "date": "2027-03-26",
+        "dish": "Kéttbullar med graddsds, lingon och kokt potatis"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-09-24T16:18:34.117742+02:00",
+    "updated": "2026-09-25T11:01:04.561874+02:00",
     "days": [
       {
         "date": "2026-09-21",
@@ -442,8 +442,8 @@
         "dish": "Grönsaksgulasch serveras gräddfil G"
       },
       {
-        "date": "2026-09-24",
-        "dish": "Grönsaksgulasch serveras gräddfil G"
+        "date": "2026-09-25",
+        "dish": "Chili sin carne serveras med ris och tortilla G"
       },
       {
         "date": "2026-09-25",
