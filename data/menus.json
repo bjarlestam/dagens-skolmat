@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-09-25T16:42:06.106804+02:00",
+    "updated": "2026-09-28T12:04:27.955192+02:00",
     "days": [
-      {
-        "date": "2026-03-27",
-        "dish": "Pasta Bolognese med ketchup"
-      },
       {
         "date": "2026-03-31",
         "dish": "Kycklingnuggets med kall currysas och ris"
@@ -45,7 +41,7 @@
       },
       {
         "date": "2026-04-20",
-        "dish": "Thaigryta med kyckling, lime och curry. Basmatiris"
+        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
       },
       {
         "date": "2026-04-22",
@@ -53,7 +49,7 @@
       },
       {
         "date": "2026-04-23",
-        "dish": "Lunchkory med bechamelsas. Kokt potatis"
+        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
       },
       {
         "date": "2026-04-24",
@@ -201,15 +197,15 @@
       },
       {
         "date": "2026-09-14",
-        "dish": "Korvgryta med rotfrukter och tomat. Ris"
+        "dish": "Chili con carne med ris"
       },
       {
         "date": "2026-09-15",
-        "dish": "Kall nudelsallad med kyckling, ingefara, soja, sweetchili"
+        "dish": "Varmkorv med potatismos och ketchup"
       },
       {
         "date": "2026-09-16",
-        "dish": "Lasagne al forno"
+        "dish": "Kycklinggryta sweet-lime med basmatiris"
       },
       {
         "date": "2026-09-17",
@@ -418,36 +414,20 @@
       {
         "date": "2027-03-26",
         "dish": "Kéttbullar med graddsds, lingon och kokt potatis"
+      },
+      {
+        "date": "2027-03-27",
+        "dish": "Pasta Bolognese med ketchup"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-09-25T16:42:07.007248+02:00",
+    "updated": "2026-09-28T12:04:28.717195+02:00",
     "days": [
       {
-        "date": "2026-09-21",
-        "dish": "Varmkorv med potatismos och bostongurka G"
-      },
-      {
-        "date": "2026-09-22",
-        "dish": "Indisk linsgryta (Daal) serveras med ris och örtyoghurt G"
-      },
-      {
-        "date": "2026-09-23",
-        "dish": "Pasta med tonfisksås G"
-      },
-      {
-        "date": "2026-09-24",
-        "dish": "Grönsaksgulasch serveras gräddfil G"
-      },
-      {
-        "date": "2026-09-25",
-        "dish": "Chili sin carne serveras med ris och tortilla G"
-      },
-      {
-        "date": "2026-09-25",
-        "dish": "Chili sin carne serveras med ris och tortilla G"
+        "date": "2026-09-28",
+        "dish": "Kycklingstroganoff serveras med ris G"
       },
       {
         "date": "2026-09-28",
@@ -468,6 +448,26 @@
       {
         "date": "2026-10-02",
         "dish": "Köttfärssås, spagetti"
+      },
+      {
+        "date": "2026-10-05",
+        "dish": "Krämig halloumi- och tomatsås serveras bulgur G"
+      },
+      {
+        "date": "2026-10-06",
+        "dish": "Falukorv med makaroner G"
+      },
+      {
+        "date": "2026-10-07",
+        "dish": "Helstekt fläskkarré, klytpotatis, tzatziki"
+      },
+      {
+        "date": "2026-10-08",
+        "dish": "Pasta med lax- och örtsås"
+      },
+      {
+        "date": "2026-10-09",
+        "dish": "Långkokt kalops med kryddpeppar, lagerblad och kokt potatis serveras med inlagda rödbetor G"
       }
     ]
   }
