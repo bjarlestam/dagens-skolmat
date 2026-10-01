@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-09-30T11:55:46.886659+02:00",
+    "updated": "2026-10-01T12:22:35.974132+02:00",
     "days": [
-      {
-        "date": "2026-04-01",
-        "dish": "Ugnsgratinerad falukorv med potatismos"
-      },
       {
         "date": "2026-04-02",
         "dish": "Kebabgryta med ris"
@@ -37,7 +33,7 @@
       },
       {
         "date": "2026-04-20",
-        "dish": "Thaigryta med kyckling, lime och curry. Basmatiris"
+        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
       },
       {
         "date": "2026-04-22",
@@ -45,7 +41,7 @@
       },
       {
         "date": "2026-04-23",
-        "dish": "Lunchkory med bechamelsas. Kokt potatis"
+        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
       },
       {
         "date": "2026-04-24",
@@ -65,7 +61,7 @@
       },
       {
         "date": "2026-04-30",
-        "dish": "Spaghetti med rostbiffsas"
+        "dish": "Kebabkryddad kycklingjarpe med tomatsalsa,ugnspotatis"
       },
       {
         "date": "2026-05-04",
@@ -434,12 +430,16 @@
       {
         "date": "2027-03-31",
         "dish": "Kycklingnuggets med kall currysas och ris"
+      },
+      {
+        "date": "2027-04-01",
+        "dish": "Ugnsgratinerad falukorv med potatismos"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-09-30T11:55:47.490786+02:00",
+    "updated": "2026-10-01T12:22:36.955549+02:00",
     "days": [
       {
         "date": "2026-09-28",
@@ -454,8 +454,8 @@
         "dish": "Sprödbakad fisk serveras med en kall ört och citronsås samt kokt potatis G"
       },
       {
-        "date": "2026-09-30",
-        "dish": "Sprödbakad fisk serveras med en kall ört och citronsås samt kokt potatis G"
+        "date": "2026-10-01",
+        "dish": "Krämig lins- och morotssoppa med kokosmjölk G"
       },
       {
         "date": "2026-10-01",
