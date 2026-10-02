@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-01T12:22:35.974132+02:00",
+    "updated": "2026-10-02T11:58:44.623105+02:00",
     "days": [
-      {
-        "date": "2026-04-02",
-        "dish": "Kebabgryta med ris"
-      },
       {
         "date": "2026-04-12",
         "dish": "Prinskorv med stuvadspenat och kokt potatis"
@@ -61,7 +57,7 @@
       },
       {
         "date": "2026-04-30",
-        "dish": "Kebabkryddad kycklingjarpe med tomatsalsa,ugnspotatis"
+        "dish": "Spaghetti med rostbiffsas"
       },
       {
         "date": "2026-05-04",
@@ -434,12 +430,16 @@
       {
         "date": "2027-04-01",
         "dish": "Ugnsgratinerad falukorv med potatismos"
+      },
+      {
+        "date": "2027-04-02",
+        "dish": "Kebabgryta med ris"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-01T12:22:36.955549+02:00",
+    "updated": "2026-10-02T11:58:45.426570+02:00",
     "days": [
       {
         "date": "2026-09-28",
@@ -458,8 +458,8 @@
         "dish": "Krämig lins- och morotssoppa med kokosmjölk G"
       },
       {
-        "date": "2026-10-01",
-        "dish": "Krämig lins- och morotssoppa med kokosmjölk G"
+        "date": "2026-10-02",
+        "dish": "Köttfärssås, spagetti"
       },
       {
         "date": "2026-10-02",
