@@ -1,7 +1,7 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-02T11:58:44.623105+02:00",
+    "updated": "2026-10-05T12:45:23.426578+02:00",
     "days": [
       {
         "date": "2026-04-12",
@@ -439,31 +439,11 @@
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-02T11:58:45.426570+02:00",
+    "updated": "2026-10-05T12:45:24.393726+02:00",
     "days": [
       {
-        "date": "2026-09-28",
-        "dish": "Kycklingstroganoff serveras med ris G"
-      },
-      {
-        "date": "2026-09-29",
-        "dish": "Pyttipanna,inlagda rödbetor"
-      },
-      {
-        "date": "2026-09-30",
-        "dish": "Sprödbakad fisk serveras med en kall ört och citronsås samt kokt potatis G"
-      },
-      {
-        "date": "2026-10-01",
-        "dish": "Krämig lins- och morotssoppa med kokosmjölk G"
-      },
-      {
-        "date": "2026-10-02",
-        "dish": "Köttfärssås, spagetti"
-      },
-      {
-        "date": "2026-10-02",
-        "dish": "Köttfärssås, spagetti"
+        "date": "2026-10-05",
+        "dish": "Krämig halloumi- och tomatsås serveras bulgur G"
       },
       {
         "date": "2026-10-05",
