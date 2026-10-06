@@ -1,7 +1,7 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-05T12:45:23.426578+02:00",
+    "updated": "2026-10-06T12:38:29.834136+02:00",
     "days": [
       {
         "date": "2026-04-12",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-20",
-        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
+        "dish": "Thaigryta med kyckling, lime och curry. Basmatiris"
       },
       {
         "date": "2026-04-22",
@@ -37,7 +37,7 @@
       },
       {
         "date": "2026-04-23",
-        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
+        "dish": "Lunchkory med bechamelsas. Kokt potatis"
       },
       {
         "date": "2026-04-24",
@@ -57,7 +57,7 @@
       },
       {
         "date": "2026-04-30",
-        "dish": "Spaghetti med rostbiffsas"
+        "dish": "Kebabkryddad kycklingjarpe med tomatsalsa,ugnspotatis"
       },
       {
         "date": "2026-05-04",
@@ -185,15 +185,15 @@
       },
       {
         "date": "2026-09-14",
-        "dish": "Korvgryta med rotfrukter och tomat. Ris"
+        "dish": "Chili con carne med ris"
       },
       {
         "date": "2026-09-15",
-        "dish": "Kall nudelsallad med kyckling, ingefara, soja, sweetchili"
+        "dish": "Varmkorv med potatismos och ketchup"
       },
       {
         "date": "2026-09-16",
-        "dish": "Lasagne al forno"
+        "dish": "Kycklinggryta sweet-lime med basmatiris"
       },
       {
         "date": "2026-09-17",
@@ -439,15 +439,15 @@
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-05T12:45:24.393726+02:00",
+    "updated": "2026-10-06T12:38:30.619529+02:00",
     "days": [
       {
         "date": "2026-10-05",
         "dish": "Krämig halloumi- och tomatsås serveras bulgur G"
       },
       {
-        "date": "2026-10-05",
-        "dish": "Krämig halloumi- och tomatsås serveras bulgur G"
+        "date": "2026-10-06",
+        "dish": "Falukorv med makaroner G"
       },
       {
         "date": "2026-10-06",
@@ -464,6 +464,14 @@
       {
         "date": "2026-10-09",
         "dish": "Långkokt kalops med kryddpeppar, lagerblad och kokt potatis serveras med inlagda rödbetor G"
+      },
+      {
+        "date": "2026-10-12",
+        "dish": "Kyckling i curry serveras med ris G"
+      },
+      {
+        "date": "2026-10-13",
+        "dish": "Kikärtsbiffar med ris och sweetchili dipp G"
       }
     ]
   }
