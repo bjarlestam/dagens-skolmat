@@ -1,7 +1,7 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-07T12:29:31.748197+02:00",
+    "updated": "2026-10-08T12:50:30.999857+02:00",
     "days": [
       {
         "date": "2026-04-12",
@@ -57,7 +57,7 @@
       },
       {
         "date": "2026-04-30",
-        "dish": "Spaghetti med rostbiffsas"
+        "dish": "Kebabkryddad kycklingjarpe med tomatsalsa,ugnspotatis"
       },
       {
         "date": "2026-05-04",
@@ -252,6 +252,26 @@
         "dish": "Cordon bleu schnitzel med vitlokscremé och rostad ugnspotatis"
       },
       {
+        "date": "2026-10-12",
+        "dish": "Kyckling i curry med ris"
+      },
+      {
+        "date": "2026-10-13",
+        "dish": "Kottbullar med graddsas, lingon och kokt potatis,"
+      },
+      {
+        "date": "2026-10-14",
+        "dish": "Kebabgryta med ris"
+      },
+      {
+        "date": "2026-10-15",
+        "dish": "Varmkorv med stuvade makaroner"
+      },
+      {
+        "date": "2026-10-16",
+        "dish": "Sprédbakad kyckling med sweet chili och ugnspotatis"
+      },
+      {
         "date": "2027-01-13",
         "dish": "Provencalsk kycklinggryta ” Gradde, orter, vitlok \" ris"
       },
@@ -439,7 +459,7 @@
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-07T12:29:32.723969+02:00",
+    "updated": "2026-10-08T12:50:31.755539+02:00",
     "days": [
       {
         "date": "2026-10-05",
@@ -454,8 +474,8 @@
         "dish": "Helstekt fläskkarré, klytpotatis, tzatziki"
       },
       {
-        "date": "2026-10-07",
-        "dish": "Helstekt fläskkarré, klytpotatis, tzatziki"
+        "date": "2026-10-08",
+        "dish": "Pasta med lax- och örtsås"
       },
       {
         "date": "2026-10-08",
