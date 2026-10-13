@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-12T13:13:08.097774+02:00",
+    "updated": "2026-10-13T12:54:36.203622+02:00",
     "days": [
-      {
-        "date": "2026-04-13",
-        "dish": "Kyckling i curry med ris,"
-      },
       {
         "date": "2026-04-14",
         "dish": "Kéttbullar med graddsds, lingon och kokt potatis"
@@ -181,15 +177,15 @@
       },
       {
         "date": "2026-09-14",
-        "dish": "Chili con carne med ris"
+        "dish": "Korvgryta med rotfrukter och tomat. Ris"
       },
       {
         "date": "2026-09-15",
-        "dish": "Varmkorv med potatismos och ketchup"
+        "dish": "Kall nudelsallad med kyckling, ingefara, soja, sweetchili"
       },
       {
         "date": "2026-09-16",
-        "dish": "Kycklinggryta sweet-lime med basmatiris"
+        "dish": "Lasagne al forno"
       },
       {
         "date": "2026-09-17",
@@ -454,20 +450,24 @@
       {
         "date": "2027-04-12",
         "dish": "Prinskorv med stuvadspenat och kokt potatis"
+      },
+      {
+        "date": "2027-04-13",
+        "dish": "Kyckling i curry med ris,"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-12T13:13:08.944209+02:00",
+    "updated": "2026-10-13T12:54:36.809568+02:00",
     "days": [
       {
         "date": "2026-10-12",
         "dish": "Kyckling i curry serveras med ris G"
       },
       {
-        "date": "2026-10-12",
-        "dish": "Kyckling i curry serveras med ris G"
+        "date": "2026-10-13",
+        "dish": "Kikärtsbiffar med ris och sweetchili dipp G"
       },
       {
         "date": "2026-10-13",
