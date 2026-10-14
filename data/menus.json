@@ -1,7 +1,7 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-14T10:57:00.661070+02:00",
+    "updated": "2026-10-14T16:36:31.194251+02:00",
     "days": [
       {
         "date": "2026-04-15",
@@ -17,7 +17,7 @@
       },
       {
         "date": "2026-04-20",
-        "dish": "Thaigryta med kyckling, lime och curry. Basmatiris"
+        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
       },
       {
         "date": "2026-04-22",
@@ -25,7 +25,7 @@
       },
       {
         "date": "2026-04-23",
-        "dish": "Lunchkory med bechamelsas. Kokt potatis"
+        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
       },
       {
         "date": "2026-04-24",
@@ -173,15 +173,15 @@
       },
       {
         "date": "2026-09-14",
-        "dish": "Chili con carne med ris"
+        "dish": "Korvgryta med rotfrukter och tomat. Ris"
       },
       {
         "date": "2026-09-15",
-        "dish": "Varmkorv med potatismos och ketchup"
+        "dish": "Kall nudelsallad med kyckling, ingefara, soja, sweetchili"
       },
       {
         "date": "2026-09-16",
-        "dish": "Kycklinggryta sweet-lime med basmatiris"
+        "dish": "Lasagne al forno"
       },
       {
         "date": "2026-09-17",
@@ -459,7 +459,7 @@
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-14T10:57:01.611477+02:00",
+    "updated": "2026-10-14T16:36:31.938388+02:00",
     "days": [
       {
         "date": "2026-10-12",
