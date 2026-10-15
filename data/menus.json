@@ -1,7 +1,7 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-15T10:31:01.105119+02:00",
+    "updated": "2026-10-15T16:18:24.960864+02:00",
     "days": [
       {
         "date": "2026-04-16",
@@ -256,6 +256,26 @@
         "dish": "Sprédbakad kyckling med sweet chili och ugnspotatis"
       },
       {
+        "date": "2026-10-19",
+        "dish": "Chili con carne med choklad och chili. Ris"
+      },
+      {
+        "date": "2026-10-20",
+        "dish": "Kyckling”coconut style\"med curry,chil,ingefara, limeblad. Serveras med basmatiris"
+      },
+      {
+        "date": "2026-10-21",
+        "dish": "Pasta penne med sas pa korv, dijonsenap och cremefraiche"
+      },
+      {
+        "date": "2026-10-22",
+        "dish": "Helstekt flaskytterfile med pepparsas och ugnspotatis"
+      },
+      {
+        "date": "2026-10-23",
+        "dish": "Nudelwook"
+      },
+      {
         "date": "2027-01-13",
         "dish": "Provencalsk kycklinggryta ” Gradde, orter, vitlok \" ris"
       },
@@ -459,7 +479,7 @@
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-15T10:31:01.794464+02:00",
+    "updated": "2026-10-15T16:18:25.643138+02:00",
     "days": [
       {
         "date": "2026-10-12",
