@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-14T16:36:31.194251+02:00",
+    "updated": "2026-10-15T10:31:01.105119+02:00",
     "days": [
-      {
-        "date": "2026-04-15",
-        "dish": "Pasta bolognese med ketchup"
-      },
       {
         "date": "2026-04-16",
         "dish": "Nuggets med sweet chili och ris,"
@@ -45,7 +41,7 @@
       },
       {
         "date": "2026-04-30",
-        "dish": "Spaghetti med rostbiffsas"
+        "dish": "Kebabkryddad kycklingjarpe med tomatsalsa,ugnspotatis"
       },
       {
         "date": "2026-05-04",
@@ -173,15 +169,15 @@
       },
       {
         "date": "2026-09-14",
-        "dish": "Korvgryta med rotfrukter och tomat. Ris"
+        "dish": "Chili con carne med ris"
       },
       {
         "date": "2026-09-15",
-        "dish": "Kall nudelsallad med kyckling, ingefara, soja, sweetchili"
+        "dish": "Varmkorv med potatismos och ketchup"
       },
       {
         "date": "2026-09-16",
-        "dish": "Lasagne al forno"
+        "dish": "Kycklinggryta sweet-lime med basmatiris"
       },
       {
         "date": "2026-09-17",
@@ -454,12 +450,16 @@
       {
         "date": "2027-04-14",
         "dish": "Kéttbullar med graddsds, lingon och kokt potatis"
+      },
+      {
+        "date": "2027-04-15",
+        "dish": "Pasta bolognese med ketchup"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-14T16:36:31.938388+02:00",
+    "updated": "2026-10-15T10:31:01.794464+02:00",
     "days": [
       {
         "date": "2026-10-12",
@@ -474,8 +474,8 @@
         "dish": "Samisk inspirerad soppa - Suovas (Köttsoppa) serveras med mjukt bröd, pålägg"
       },
       {
-        "date": "2026-10-14",
-        "dish": "Samisk inspirerad soppa - Suovas (Köttsoppa) serveras med mjukt bröd, pålägg"
+        "date": "2026-10-15",
+        "dish": "Thaifisk m grön curry serveras med kokt potatis G"
       },
       {
         "date": "2026-10-15",
