@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-15T16:18:24.960864+02:00",
+    "updated": "2026-10-16T10:24:46.112930+02:00",
     "days": [
-      {
-        "date": "2026-04-16",
-        "dish": "Nuggets med sweet chili och ris,"
-      },
       {
         "date": "2026-04-17",
         "dish": "Potatis-och kéttfarsgrating"
@@ -41,7 +37,7 @@
       },
       {
         "date": "2026-04-30",
-        "dish": "Kebabkryddad kycklingjarpe med tomatsalsa,ugnspotatis"
+        "dish": "Spaghetti med rostbiffsas"
       },
       {
         "date": "2026-05-04",
@@ -474,12 +470,16 @@
       {
         "date": "2027-04-15",
         "dish": "Pasta bolognese med ketchup"
+      },
+      {
+        "date": "2027-04-16",
+        "dish": "Nuggets med sweet chili och ris,"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-15T16:18:25.643138+02:00",
+    "updated": "2026-10-16T10:24:46.869476+02:00",
     "days": [
       {
         "date": "2026-10-12",
@@ -498,8 +498,8 @@
         "dish": "Thaifisk m grön curry serveras med kokt potatis G"
       },
       {
-        "date": "2026-10-15",
-        "dish": "Thaifisk m grön curry serveras med kokt potatis G"
+        "date": "2026-10-16",
+        "dish": "Potatisbullar, lingon och keso (S)"
       },
       {
         "date": "2026-10-16",
