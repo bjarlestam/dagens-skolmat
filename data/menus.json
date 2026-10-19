@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-16T15:25:59.474406+02:00",
+    "updated": "2026-10-19T11:12:37.680943+02:00",
     "days": [
-      {
-        "date": "2026-04-17",
-        "dish": "Potatis-och kéttfarsgrating"
-      },
       {
         "date": "2026-04-20",
         "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
@@ -474,36 +470,20 @@
       {
         "date": "2027-04-16",
         "dish": "Nuggets med sweet chili och ris,"
+      },
+      {
+        "date": "2027-04-17",
+        "dish": "Potatis-och kéttfarsgrating"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-16T15:26:00.243973+02:00",
+    "updated": "2026-10-19T11:12:38.420157+02:00",
     "days": [
       {
-        "date": "2026-10-12",
-        "dish": "Kyckling i curry serveras med ris G"
-      },
-      {
-        "date": "2026-10-13",
-        "dish": "Kikärtsbiffar med ris och sweetchili dipp G"
-      },
-      {
-        "date": "2026-10-14",
-        "dish": "Samisk inspirerad soppa - Suovas (Köttsoppa) serveras med mjukt bröd, pålägg"
-      },
-      {
-        "date": "2026-10-15",
-        "dish": "Thaifisk m grön curry serveras med kokt potatis G"
-      },
-      {
-        "date": "2026-10-16",
-        "dish": "Potatisbullar, lingon och keso (S)"
-      },
-      {
-        "date": "2026-10-16",
-        "dish": "Potatisbullar, lingon och keso (S)"
+        "date": "2026-10-19",
+        "dish": "Italiensk ugnsbakad falukorv, potatismos"
       },
       {
         "date": "2026-10-19",
