@@ -1,7 +1,7 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-20T10:47:55.984370+02:00",
+    "updated": "2026-10-20T16:26:00.822702+02:00",
     "days": [
       {
         "date": "2026-04-22",
@@ -157,15 +157,15 @@
       },
       {
         "date": "2026-09-14",
-        "dish": "Korvgryta med rotfrukter och tomat. Ris"
+        "dish": "Chili con carne med ris"
       },
       {
         "date": "2026-09-15",
-        "dish": "Kall nudelsallad med kyckling, ingefara, soja, sweetchili"
+        "dish": "Varmkorv med potatismos och ketchup"
       },
       {
         "date": "2026-09-16",
-        "dish": "Lasagne al forno"
+        "dish": "Kycklinggryta sweet-lime med basmatiris"
       },
       {
         "date": "2026-09-17",
@@ -479,7 +479,7 @@
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-20T10:47:56.669062+02:00",
+    "updated": "2026-10-20T16:26:01.713965+02:00",
     "days": [
       {
         "date": "2026-10-19",
@@ -504,6 +504,26 @@
       {
         "date": "2026-10-23",
         "dish": "Fläskköttsgulasch, gräddfil serveras med ris G"
+      },
+      {
+        "date": "2026-10-26",
+        "dish": "Kycklingpytt med mangosalsa G"
+      },
+      {
+        "date": "2026-10-27",
+        "dish": "Pannbiff med gräddsås och kokt potatis G"
+      },
+      {
+        "date": "2026-10-28",
+        "dish": "Chicken nuggets, ris, sötsur sås"
+      },
+      {
+        "date": "2026-10-29",
+        "dish": "Guldgul kycklingsoppa, mjukt bröd, pålägg"
+      },
+      {
+        "date": "2026-10-30",
+        "dish": "Sprödbakad fisk serveras med en kall ört och citronsås samt kokt potatis G"
       }
     ]
   }
