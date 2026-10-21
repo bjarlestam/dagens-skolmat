@@ -1,7 +1,7 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-21T10:47:37.778981+02:00",
+    "updated": "2026-10-21T16:34:42.883375+02:00",
     "days": [
       {
         "date": "2026-04-22",
@@ -9,7 +9,7 @@
       },
       {
         "date": "2026-04-23",
-        "dish": "Lunchkory med bechamelsas. Kokt potatis"
+        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
       },
       {
         "date": "2026-04-24",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-30",
-        "dish": "Spaghetti med rostbiffsas"
+        "dish": "Kebabkryddad kycklingjarpe med tomatsalsa,ugnspotatis"
       },
       {
         "date": "2026-05-04",
@@ -473,13 +473,13 @@
       },
       {
         "date": "2027-04-20",
-        "dish": "Thaigryta med kyckling, lime och curry. Basmatiris"
+        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-21T10:47:38.790130+02:00",
+    "updated": "2026-10-21T16:34:43.614048+02:00",
     "days": [
       {
         "date": "2026-10-19",
