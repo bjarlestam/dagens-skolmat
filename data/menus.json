@@ -1,15 +1,11 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-21T16:34:42.883375+02:00",
+    "updated": "2026-10-22T10:50:55.597890+02:00",
     "days": [
       {
-        "date": "2026-04-22",
-        "dish": "Panerad alaska-filet med kall citrussas. Kokt potatis"
-      },
-      {
         "date": "2026-04-23",
-        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
+        "dish": "Lunchkory med bechamelsas. Kokt potatis"
       },
       {
         "date": "2026-04-24",
@@ -157,15 +153,15 @@
       },
       {
         "date": "2026-09-14",
-        "dish": "Korvgryta med rotfrukter och tomat. Ris"
+        "dish": "Chili con carne med ris"
       },
       {
         "date": "2026-09-15",
-        "dish": "Kall nudelsallad med kyckling, ingefara, soja, sweetchili"
+        "dish": "Varmkorv med potatismos och ketchup"
       },
       {
         "date": "2026-09-16",
-        "dish": "Lasagne al forno"
+        "dish": "Kycklinggryta sweet-lime med basmatiris"
       },
       {
         "date": "2026-09-17",
@@ -473,13 +469,17 @@
       },
       {
         "date": "2027-04-20",
-        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
+        "dish": "Thaigryta med kyckling, lime och curry. Basmatiris"
+      },
+      {
+        "date": "2027-04-22",
+        "dish": "Panerad alaska-filet med kall citrussas. Kokt potatis"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-21T16:34:43.614048+02:00",
+    "updated": "2026-10-22T10:50:56.508510+02:00",
     "days": [
       {
         "date": "2026-10-19",
@@ -494,8 +494,8 @@
         "dish": "Tomatsoppa med pasta G"
       },
       {
-        "date": "2026-10-21",
-        "dish": "Tomatsoppa med pasta G"
+        "date": "2026-10-22",
+        "dish": "Ugnstekt lax med kokt potatis och romsås G"
       },
       {
         "date": "2026-10-22",
