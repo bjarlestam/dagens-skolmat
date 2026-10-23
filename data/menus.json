@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-22T16:36:20.785383+02:00",
+    "updated": "2026-10-23T10:45:52.684402+02:00",
     "days": [
-      {
-        "date": "2026-04-23",
-        "dish": "Lunchkory med bechamelsas. Kokt potatis"
-      },
       {
         "date": "2026-04-24",
         "dish": "Comflakespanerad kycklingburgare med tillbehor"
@@ -469,17 +465,21 @@
       },
       {
         "date": "2027-04-20",
-        "dish": "Thaigryta med kyckling, lime och curry. Basmatiris"
+        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
       },
       {
         "date": "2027-04-22",
         "dish": "Panerad alaska-filet med kall citrussas. Kokt potatis"
+      },
+      {
+        "date": "2027-04-23",
+        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-22T16:36:21.540414+02:00",
+    "updated": "2026-10-23T10:45:53.264186+02:00",
     "days": [
       {
         "date": "2026-10-19",
@@ -498,8 +498,8 @@
         "dish": "Ugnstekt lax med kokt potatis och romsås G"
       },
       {
-        "date": "2026-10-22",
-        "dish": "Ugnstekt lax med kokt potatis och romsås G"
+        "date": "2026-10-23",
+        "dish": "Fläskköttsgulasch, gräddfil serveras med ris G"
       },
       {
         "date": "2026-10-23",
