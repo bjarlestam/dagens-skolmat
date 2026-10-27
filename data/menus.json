@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-26T17:15:22.702637+01:00",
+    "updated": "2026-10-27T10:15:36.723684+01:00",
     "days": [
-      {
-        "date": "2026-04-27",
-        "dish": "Kramig korvstroganoff med ris"
-      },
       {
         "date": "2026-04-28",
         "dish": "Cordonbleu schnitzel med kryddig tomatsas och ugnsrostad potatis"
@@ -17,7 +13,7 @@
       },
       {
         "date": "2026-04-30",
-        "dish": "Spaghetti med rostbiffsas"
+        "dish": "Kebabkryddad kycklingjarpe med tomatsalsa,ugnspotatis"
       },
       {
         "date": "2026-05-04",
@@ -474,20 +470,24 @@
       {
         "date": "2027-04-24",
         "dish": "Comflakespanerad kycklingburgare med tillbehor"
+      },
+      {
+        "date": "2027-04-27",
+        "dish": "Kramig korvstroganoff med ris"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-26T17:15:23.539832+01:00",
+    "updated": "2026-10-27T10:15:37.663718+01:00",
     "days": [
       {
         "date": "2026-10-26",
         "dish": "Chicken nuggets, ris, sötsur sås"
       },
       {
-        "date": "2026-10-26",
-        "dish": "Chicken nuggets, ris, sötsur sås"
+        "date": "2026-10-27",
+        "dish": "Pannbiff med gräddsås och kokt potatis G"
       },
       {
         "date": "2026-10-27",
