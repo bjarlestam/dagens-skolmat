@@ -1,15 +1,11 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-28T10:55:57.944877+01:00",
+    "updated": "2026-10-29T11:18:50.003948+01:00",
     "days": [
       {
-        "date": "2026-04-29",
-        "dish": "Nasigoreng med kyckling och currydipp"
-      },
-      {
         "date": "2026-04-30",
-        "dish": "Kebabkryddad kycklingjarpe med tomatsalsa,ugnspotatis"
+        "dish": "Spaghetti med rostbiffsas"
       },
       {
         "date": "2026-05-04",
@@ -137,15 +133,15 @@
       },
       {
         "date": "2026-09-14",
-        "dish": "Chili con carne med ris"
+        "dish": "Korvgryta med rotfrukter och tomat. Ris"
       },
       {
         "date": "2026-09-15",
-        "dish": "Varmkorv med potatismos och ketchup"
+        "dish": "Kall nudelsallad med kyckling, ingefara, soja, sweetchili"
       },
       {
         "date": "2026-09-16",
-        "dish": "Kycklinggryta sweet-lime med basmatiris"
+        "dish": "Lasagne al forno"
       },
       {
         "date": "2026-09-17",
@@ -453,7 +449,7 @@
       },
       {
         "date": "2027-04-20",
-        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
+        "dish": "Thaigryta med kyckling, lime och curry. Basmatiris"
       },
       {
         "date": "2027-04-22",
@@ -461,7 +457,7 @@
       },
       {
         "date": "2027-04-23",
-        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
+        "dish": "Lunchkory med bechamelsas. Kokt potatis"
       },
       {
         "date": "2027-04-24",
@@ -474,12 +470,16 @@
       {
         "date": "2027-04-28",
         "dish": "Cordonbleu schnitzel med kryddig tomatsas och ugnsrostad potatis"
+      },
+      {
+        "date": "2027-04-29",
+        "dish": "Nasigoreng med kyckling och currydipp"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-28T10:55:58.838299+01:00",
+    "updated": "2026-10-29T11:18:50.650687+01:00",
     "days": [
       {
         "date": "2026-10-26",
@@ -494,8 +494,8 @@
         "dish": "Kycklingpytt med mangosalsa G"
       },
       {
-        "date": "2026-10-28",
-        "dish": "Kycklingpytt med mangosalsa G"
+        "date": "2026-10-29",
+        "dish": "Guldgul kycklingsoppa, mjukt bröd, pålägg"
       },
       {
         "date": "2026-10-29",
