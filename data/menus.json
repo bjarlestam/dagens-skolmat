@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-10-29T11:18:50.003948+01:00",
+    "updated": "2026-10-30T11:21:02.815214+01:00",
     "days": [
-      {
-        "date": "2026-04-30",
-        "dish": "Spaghetti med rostbiffsas"
-      },
       {
         "date": "2026-05-04",
         "dish": "Kebabgryta med feferoni och basmatiris"
@@ -449,7 +445,7 @@
       },
       {
         "date": "2027-04-20",
-        "dish": "Thaigryta med kyckling, lime och curry. Basmatiris"
+        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
       },
       {
         "date": "2027-04-22",
@@ -457,7 +453,7 @@
       },
       {
         "date": "2027-04-23",
-        "dish": "Lunchkory med bechamelsas. Kokt potatis"
+        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
       },
       {
         "date": "2027-04-24",
@@ -474,12 +470,16 @@
       {
         "date": "2027-04-29",
         "dish": "Nasigoreng med kyckling och currydipp"
+      },
+      {
+        "date": "2027-04-30",
+        "dish": "Spaghetti med rostbiffsas"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-10-29T11:18:50.650687+01:00",
+    "updated": "2026-10-30T11:21:03.614355+01:00",
     "days": [
       {
         "date": "2026-10-26",
@@ -498,8 +498,8 @@
         "dish": "Guldgul kycklingsoppa, mjukt bröd, pålägg"
       },
       {
-        "date": "2026-10-29",
-        "dish": "Guldgul kycklingsoppa, mjukt bröd, pålägg"
+        "date": "2026-10-30",
+        "dish": "Sprödbakad fisk serveras med en kall ört och citronsås samt kokt potatis G"
       },
       {
         "date": "2026-10-30",
