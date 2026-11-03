@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-11-02T12:33:31.915188+01:00",
+    "updated": "2026-11-03T12:13:09.034243+01:00",
     "days": [
-      {
-        "date": "2026-05-04",
-        "dish": "Kebabgryta med feferoni och basmatiris"
-      },
       {
         "date": "2026-05-05",
         "dish": "Kycklinggryta med basilika,tomat och gradde"
@@ -129,15 +125,15 @@
       },
       {
         "date": "2026-09-14",
-        "dish": "Korvgryta med rotfrukter och tomat. Ris"
+        "dish": "Chili con carne med ris"
       },
       {
         "date": "2026-09-15",
-        "dish": "Kall nudelsallad med kyckling, ingefara, soja, sweetchili"
+        "dish": "Varmkorv med potatismos och ketchup"
       },
       {
         "date": "2026-09-16",
-        "dish": "Lasagne al forno"
+        "dish": "Kycklinggryta sweet-lime med basmatiris"
       },
       {
         "date": "2026-09-17",
@@ -493,21 +489,25 @@
       },
       {
         "date": "2027-04-30",
-        "dish": "Kebabkryddad kycklingjarpe med tomatsalsa,ugnspotatis"
+        "dish": "Spaghetti med rostbiffsas"
+      },
+      {
+        "date": "2027-05-04",
+        "dish": "Kebabgryta med feferoni och basmatiris"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-11-02T12:33:32.467806+01:00",
+    "updated": "2026-11-03T12:13:09.777011+01:00",
     "days": [
       {
         "date": "2026-11-02",
         "dish": "Stekt kyckling med ris och choronsås G"
       },
       {
-        "date": "2026-11-02",
-        "dish": "Stekt kyckling med ris och choronsås G"
+        "date": "2026-11-03",
+        "dish": "Pastagratäng med sojafärs"
       },
       {
         "date": "2026-11-03",
@@ -524,6 +524,26 @@
       {
         "date": "2026-11-06",
         "dish": "Köttfärsrutor med kokt potatis, gräddsås och lingonsylt G"
+      },
+      {
+        "date": "2026-11-09",
+        "dish": "Chorizogryta med paprika serveras med ris och vitlökssås G"
+      },
+      {
+        "date": "2026-11-10",
+        "dish": "Potatis- och purjolökssoppa"
+      },
+      {
+        "date": "2026-11-11",
+        "dish": "Kycklingfärstacos med ris, gräddfil, tacosås och nachochips G"
+      },
+      {
+        "date": "2026-11-12",
+        "dish": "Panerad fisk serveras med kokt potatis och remouladsås G"
+      },
+      {
+        "date": "2026-11-13",
+        "dish": "Rosendalsskolans Flygande Jacob serveras med ris G"
       }
     ]
   }
