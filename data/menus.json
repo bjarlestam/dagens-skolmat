@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-11-03T12:13:09.034243+01:00",
+    "updated": "2026-11-04T12:24:11.771446+01:00",
     "days": [
-      {
-        "date": "2026-05-05",
-        "dish": "Kycklinggryta med basilika,tomat och gradde"
-      },
       {
         "date": "2026-05-06",
         "dish": "Pasta bolognese"
@@ -461,7 +457,7 @@
       },
       {
         "date": "2027-04-20",
-        "dish": "Thaigryta med kyckling, lime och curry. Basmatiris"
+        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
       },
       {
         "date": "2027-04-22",
@@ -469,7 +465,7 @@
       },
       {
         "date": "2027-04-23",
-        "dish": "Lunchkory med bechamelsas. Kokt potatis"
+        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
       },
       {
         "date": "2027-04-24",
@@ -494,12 +490,16 @@
       {
         "date": "2027-05-04",
         "dish": "Kebabgryta med feferoni och basmatiris"
+      },
+      {
+        "date": "2027-05-05",
+        "dish": "Kycklinggryta med basilika,tomat och gradde"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-11-03T12:13:09.777011+01:00",
+    "updated": "2026-11-04T12:24:12.658253+01:00",
     "days": [
       {
         "date": "2026-11-02",
@@ -510,8 +510,8 @@
         "dish": "Pastagratäng med sojafärs"
       },
       {
-        "date": "2026-11-03",
-        "dish": "Pastagratäng med sojafärs"
+        "date": "2026-11-04",
+        "dish": "Cornflakespanerad fisk, dillsås, kokt potatis"
       },
       {
         "date": "2026-11-04",
