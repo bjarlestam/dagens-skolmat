@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-11-05T12:21:26.458792+01:00",
+    "updated": "2026-11-06T12:23:56.498885+01:00",
     "days": [
-      {
-        "date": "2026-05-07",
-        "dish": "Kéttbullar, gréddss,potatis och lingonsyit"
-      },
       {
         "date": "2026-05-08",
         "dish": "Kycklingsnitzel med sweetchili. Ugnspotatis"
@@ -469,7 +465,7 @@
       },
       {
         "date": "2027-04-20",
-        "dish": "Thaigryta med kyckling, lime och curry. Basmatiris"
+        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
       },
       {
         "date": "2027-04-22",
@@ -477,7 +473,7 @@
       },
       {
         "date": "2027-04-23",
-        "dish": "Lunchkory med bechamelsas. Kokt potatis"
+        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
       },
       {
         "date": "2027-04-24",
@@ -510,12 +506,16 @@
       {
         "date": "2027-05-06",
         "dish": "Pasta bolognese"
+      },
+      {
+        "date": "2027-05-07",
+        "dish": "Kéttbullar, gréddss,potatis och lingonsyit"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-11-05T12:21:27.244849+01:00",
+    "updated": "2026-11-06T12:23:57.418682+01:00",
     "days": [
       {
         "date": "2026-11-02",
@@ -534,8 +534,8 @@
         "dish": "Pasta \"carbonara\" (Skinksås) G"
       },
       {
-        "date": "2026-11-05",
-        "dish": "Pasta \"carbonara\" (Skinksås) G"
+        "date": "2026-11-06",
+        "dish": "Köttfärsrutor med kokt potatis, gräddsås och lingonsylt G"
       },
       {
         "date": "2026-11-06",
