@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-11-06T12:23:56.498885+01:00",
+    "updated": "2026-11-09T12:57:28.095609+01:00",
     "days": [
-      {
-        "date": "2026-05-08",
-        "dish": "Kycklingsnitzel med sweetchili. Ugnspotatis"
-      },
       {
         "date": "2026-05-11",
         "dish": "Tomatsoppa med risoni och ostmacka"
@@ -113,15 +109,15 @@
       },
       {
         "date": "2026-09-14",
-        "dish": "Korvgryta med rotfrukter och tomat. Ris"
+        "dish": "Chili con carne med ris"
       },
       {
         "date": "2026-09-15",
-        "dish": "Kall nudelsallad med kyckling, ingefara, soja, sweetchili"
+        "dish": "Varmkorv med potatismos och ketchup"
       },
       {
         "date": "2026-09-16",
-        "dish": "Lasagne al forno"
+        "dish": "Kycklinggryta sweet-lime med basmatiris"
       },
       {
         "date": "2026-09-17",
@@ -510,36 +506,20 @@
       {
         "date": "2027-05-07",
         "dish": "Kéttbullar, gréddss,potatis och lingonsyit"
+      },
+      {
+        "date": "2027-05-08",
+        "dish": "Kycklingsnitzel med sweetchili. Ugnspotatis"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-11-06T12:23:57.418682+01:00",
+    "updated": "2026-11-09T12:57:29.007485+01:00",
     "days": [
       {
-        "date": "2026-11-02",
-        "dish": "Stekt kyckling med ris och choronsås G"
-      },
-      {
-        "date": "2026-11-03",
-        "dish": "Pastagratäng med sojafärs"
-      },
-      {
-        "date": "2026-11-04",
-        "dish": "Cornflakespanerad fisk, dillsås, kokt potatis"
-      },
-      {
-        "date": "2026-11-05",
-        "dish": "Pasta \"carbonara\" (Skinksås) G"
-      },
-      {
-        "date": "2026-11-06",
-        "dish": "Köttfärsrutor med kokt potatis, gräddsås och lingonsylt G"
-      },
-      {
-        "date": "2026-11-06",
-        "dish": "Köttfärsrutor med kokt potatis, gräddsås och lingonsylt G"
+        "date": "2026-11-09",
+        "dish": "Chorizogryta med paprika serveras med ris och vitlökssås G"
       },
       {
         "date": "2026-11-09",
