@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-11-09T12:57:28.095609+01:00",
+    "updated": "2026-11-10T12:31:40.536302+01:00",
     "days": [
-      {
-        "date": "2026-05-11",
-        "dish": "Tomatsoppa med risoni och ostmacka"
-      },
       {
         "date": "2026-05-12",
         "dish": "Kyckling schnitzel med pepparsas och ugnspotatis"
@@ -489,7 +485,7 @@
       },
       {
         "date": "2027-04-30",
-        "dish": "Kebabkryddad kycklingjarpe med tomatsalsa,ugnspotatis"
+        "dish": "Spaghetti med rostbiffsas"
       },
       {
         "date": "2027-05-04",
@@ -510,20 +506,24 @@
       {
         "date": "2027-05-08",
         "dish": "Kycklingsnitzel med sweetchili. Ugnspotatis"
+      },
+      {
+        "date": "2027-05-11",
+        "dish": "Tomatsoppa med risoni och ostmacka"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-11-09T12:57:29.007485+01:00",
+    "updated": "2026-11-10T12:31:41.386369+01:00",
     "days": [
       {
         "date": "2026-11-09",
         "dish": "Chorizogryta med paprika serveras med ris och vitlökssås G"
       },
       {
-        "date": "2026-11-09",
-        "dish": "Chorizogryta med paprika serveras med ris och vitlökssås G"
+        "date": "2026-11-10",
+        "dish": "Potatis- och purjolökssoppa"
       },
       {
         "date": "2026-11-10",
@@ -540,6 +540,26 @@
       {
         "date": "2026-11-13",
         "dish": "Rosendalsskolans Flygande Jacob serveras med ris G"
+      },
+      {
+        "date": "2026-11-16",
+        "dish": "Västafrikanskt Maafe (kikärtsgryta) med ris och gräddfil G"
+      },
+      {
+        "date": "2026-11-17",
+        "dish": "Raggmunkar, strimlat fläsk, lingon"
+      },
+      {
+        "date": "2026-11-18",
+        "dish": "Fiskgryta med örter, kokt potatis och aioli G"
+      },
+      {
+        "date": "2026-11-19",
+        "dish": "Kyckling med krämig svampsås och ris G"
+      },
+      {
+        "date": "2026-11-20",
+        "dish": "Köttfärssås, spagetti"
       }
     ]
   }
