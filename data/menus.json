@@ -1,12 +1,8 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-11-10T12:31:40.536302+01:00",
+    "updated": "2026-11-11T12:20:15.903439+01:00",
     "days": [
-      {
-        "date": "2026-05-12",
-        "dish": "Kyckling schnitzel med pepparsas och ugnspotatis"
-      },
       {
         "date": "2026-05-13",
         "dish": "Varmkorv med potatismos"
@@ -105,15 +101,15 @@
       },
       {
         "date": "2026-09-14",
-        "dish": "Chili con carne med ris"
+        "dish": "Korvgryta med rotfrukter och tomat. Ris"
       },
       {
         "date": "2026-09-15",
-        "dish": "Varmkorv med potatismos och ketchup"
+        "dish": "Kall nudelsallad med kyckling, ingefara, soja, sweetchili"
       },
       {
         "date": "2026-09-16",
-        "dish": "Kycklinggryta sweet-lime med basmatiris"
+        "dish": "Lasagne al forno"
       },
       {
         "date": "2026-09-17",
@@ -457,7 +453,7 @@
       },
       {
         "date": "2027-04-20",
-        "dish": "Kéttbullar med graddsas, lingon och kokt potatis"
+        "dish": "Thaigryta med kyckling, lime och curry. Basmatiris"
       },
       {
         "date": "2027-04-22",
@@ -465,7 +461,7 @@
       },
       {
         "date": "2027-04-23",
-        "dish": "Schnitzel med bearnaise och grillad sétpotatis"
+        "dish": "Lunchkory med bechamelsas. Kokt potatis"
       },
       {
         "date": "2027-04-24",
@@ -485,7 +481,7 @@
       },
       {
         "date": "2027-04-30",
-        "dish": "Spaghetti med rostbiffsas"
+        "dish": "Kebabkryddad kycklingjarpe med tomatsalsa,ugnspotatis"
       },
       {
         "date": "2027-05-04",
@@ -510,12 +506,16 @@
       {
         "date": "2027-05-11",
         "dish": "Tomatsoppa med risoni och ostmacka"
+      },
+      {
+        "date": "2027-05-12",
+        "dish": "Kyckling schnitzel med pepparsas och ugnspotatis"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-11-10T12:31:41.386369+01:00",
+    "updated": "2026-11-11T12:20:16.792733+01:00",
     "days": [
       {
         "date": "2026-11-09",
@@ -526,8 +526,8 @@
         "dish": "Potatis- och purjolökssoppa"
       },
       {
-        "date": "2026-11-10",
-        "dish": "Potatis- och purjolökssoppa"
+        "date": "2026-11-11",
+        "dish": "Kycklingfärstacos med ris, gräddfil, tacosås och nachochips G"
       },
       {
         "date": "2026-11-11",
