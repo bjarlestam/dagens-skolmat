@@ -27,7 +27,7 @@ jobs:
           persist-credentials: false
 
       - name: Installera Tesseract
-        run: sudo apt-get update && sudo apt-get install --yes tesseract-ocr
+        run: sudo apt-get update && sudo apt-get install --yes tesseract-ocr tesseract-ocr-swe
 
       - name: Hämta aktuella menyer
         run: python3 scripts/fetch-menus.py

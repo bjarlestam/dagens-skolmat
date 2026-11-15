@@ -12,7 +12,7 @@ import sys
 import tempfile
 import urllib.request
 import zipfile
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -227,9 +227,12 @@ def parse_mashie_menu(html: str) -> list[dict]:
 
 
 GOOGLE_DOC_ID_RE = re.compile(r"docs\.google\.com/document/d/([\w-]+)")
+WEEK_RE = re.compile(r"\bmatsedel\s+v\.?\s*(\d{1,2})\b", re.IGNORECASE)
 DAY_RE = re.compile(
-    r"^(m[åa]ndag|tisdag|onsdag|torsdag|fredag)\s+(\d{1,2})/(\d{1,2})$", re.IGNORECASE
+    r"^(m[åa]ndag|tisdag|onsdag|torsdag|fredag)\s+(\d{1,2})\s*/\s*(\d{1,2})(?!\d)",
+    re.IGNORECASE,
 )
+WEEKDAYS = ("mandag", "tisdag", "onsdag", "torsdag", "fredag")
 MAIN_DISH_RE = re.compile(r"^huvudr\w*t\s*:\s*(.+)$", re.IGNORECASE)
 NEXT_FIELD_RE = re.compile(r"^(gr\w*|huvudr\w*t)\s*:?", re.IGNORECASE)
 
@@ -253,6 +256,17 @@ def clean_ocr_dish(dish: str) -> str:
     return re.sub(r"\bcon came\b", "con carne", dish, flags=re.IGNORECASE)
 
 
+def menu_week_start(week: int, today: date) -> date | None:
+    candidates = []
+    year = today.isocalendar().year
+    for candidate_year in (year - 1, year, year + 1):
+        try:
+            candidates.append(date.fromisocalendar(candidate_year, week, 1))
+        except ValueError:
+            continue
+    return min(candidates, key=lambda monday: abs((monday - today).days), default=None)
+
+
 def parse_google_docs_menu(document: bytes) -> list[dict]:
     """Extract main dishes from the menu images in Kunskapsskolan's public document."""
     tesseract = shutil.which("tesseract")
@@ -261,6 +275,7 @@ def parse_google_docs_menu(document: bytes) -> list[dict]:
 
     days: list[dict] = []
     seen_dates: set[str] = set()
+    today = datetime.now(tz=STOCKHOLM).date()
 
     with tempfile.TemporaryDirectory() as temporary_directory:
         with zipfile.ZipFile(io.BytesIO(document)) as archive:
@@ -280,13 +295,17 @@ def parse_google_docs_menu(document: bytes) -> list[dict]:
                 image_path = Path(temporary_directory) / Path(image_entry.filename).name
                 image_path.write_bytes(archive.read(image_entry))
                 result = subprocess.run(
-                    [tesseract, str(image_path), "stdout", "-l", "eng", "--psm", "6"],
+                    [tesseract, str(image_path), "stdout", "-l", "swe", "--psm", "6"],
                     check=True,
                     capture_output=True,
                     text=True,
                     timeout=30,
                 )
                 lines = [" ".join(line.split()) for line in result.stdout.splitlines() if line.strip()]
+                week_match = WEEK_RE.search(result.stdout)
+                monday = menu_week_start(int(week_match.group(1)), today) if week_match else None
+                if monday is None:
+                    continue
                 current_date: str | None = None
                 collecting_dish = False
                 dish_lines: list[str] = []
@@ -304,7 +323,12 @@ def parse_google_docs_menu(document: bytes) -> list[dict]:
                     if day_match:
                         save_dish()
                         day, month = int(day_match.group(2)), int(day_match.group(3))
-                        current_date = f"{infer_year(month, day):04d}-{month:02d}-{day:02d}"
+                        weekday = day_match.group(1).lower().replace("å", "a")
+                        expected_date = monday + timedelta(days=WEEKDAYS.index(weekday))
+                        # Ignore a misread date without discarding the rest of the document.
+                        current_date = expected_date.isoformat() if (day, month) == (
+                            expected_date.day, expected_date.month
+                        ) else None
                         continue
                     dish_match = MAIN_DISH_RE.match(line)
                     if dish_match:

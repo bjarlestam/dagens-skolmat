@@ -17,7 +17,7 @@ async function fetchMenu(schoolKey) {
         const menus = await response.json();
         const schoolMenu = menus[schoolKey];
 
-        if (!schoolMenu?.days?.length) {
+        if (!Array.isArray(schoolMenu?.days)) {
             throw new Error('Ingen meny hittades');
         }
 
@@ -45,42 +45,34 @@ function processMenuData(days, labelEl, dishEl, statusEl, upcomingListEl) {
         labelText = 'I Morgon';
     }
 
+    const lastDate = new Date(targetDate);
+    lastDate.setDate(targetDate.getDate() + 7);
     const dayEntries = days
         .map((entry) => ({
             date: parseLocalDate(entry.date),
             dish: entry.dish,
         }))
-        .filter((entry) => entry.date && entry.dish)
+        .filter((entry) => entry.date && entry.dish && entry.date >= targetDate && entry.date <= lastDate)
         .sort((a, b) => a.date - b.date);
 
+    statusEl.style.display = 'none';
+    upcomingListEl.innerHTML = '';
+
     if (dayEntries.length === 0) {
-        dishEl.textContent = 'Ingen meny hittades online.';
+        labelEl.textContent = 'Matsedel';
+        dishEl.textContent = 'Ingen aktuell meny tillgänglig.';
+        const li = document.createElement('li');
+        li.textContent = 'Inga kommande menyer laddade.';
+        upcomingListEl.appendChild(li);
         return;
     }
 
-    let mainEntry = dayEntries.find((entry) => isSameDay(entry.date, targetDate));
-
-    if (!mainEntry && showNextDay) {
-        mainEntry = dayEntries.find((entry) => entry.date > today);
-        if (mainEntry) labelText = 'Nästa Lunch';
-    } else if (!mainEntry && !showNextDay) {
-        mainEntry = dayEntries.find((entry) => entry.date >= today);
-        if (mainEntry) labelText = 'Nästa Lunch';
-    }
-
-    if (!mainEntry) {
-        mainEntry = dayEntries[0];
-        labelText = 'Aktuell Meny';
-    }
+    const mainEntry = dayEntries[0];
+    if (!isSameDay(mainEntry.date, targetDate)) labelText = 'Nästa Lunch';
 
     labelEl.textContent = `${labelText} - ${formatSwedishDate(mainEntry.date)}`;
     dishEl.textContent = mainEntry.dish;
-    statusEl.style.display = 'none';
-
-    const mainIndex = dayEntries.indexOf(mainEntry);
-    const upcomingEntries = dayEntries.slice(mainIndex + 1, mainIndex + 4);
-
-    upcomingListEl.innerHTML = '';
+    const upcomingEntries = dayEntries.slice(1, 4);
 
     if (upcomingEntries.length === 0) {
         const li = document.createElement('li');

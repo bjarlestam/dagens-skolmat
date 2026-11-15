@@ -4,6 +4,8 @@ En enkel webbapplikation som visar skollunchen.
 
 ## Uppdatera menyerna
 
+Kunskapsskolans matsedel består av bilder. För att läsa dem behöver skriptet Tesseract med svenska språkdata (`swe`).
+
 Kör följande kommando från projektets rot:
 
 ```sh
