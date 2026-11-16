@@ -1,7 +1,7 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-11-15T10:07:57.980018+01:00",
+    "updated": "2026-11-16T12:54:21.613497+01:00",
     "days": [
       {
         "date": "2026-06-01",
@@ -177,7 +177,7 @@
       },
       {
         "date": "2026-10-20",
-        "dish": "Kyckling”coconut style” med curry,chiliingefära, limeblad. Serveras med basmatiris"
+        "dish": "Kyckling”coconut style” med curry,chili,ingefära, limeblad. Serveras med basmatiris"
       },
       {
         "date": "2026-10-21",
@@ -245,33 +245,17 @@
       },
       {
         "date": "2026-11-20",
-        "dish": "Kycklingtaco i tortilla bröd med mild avocadocreméå"
+        "dish": "Kycklingtaco i tortilla bröd med mild avocadocremå"
       }
     ]
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-11-15T10:16:28.030390+01:00",
+    "updated": "2026-11-16T12:54:22.381425+01:00",
     "days": [
       {
-        "date": "2026-11-09",
-        "dish": "Chorizogryta med paprika serveras med ris och vitlökssås G"
-      },
-      {
-        "date": "2026-11-10",
-        "dish": "Potatis- och purjolökssoppa"
-      },
-      {
-        "date": "2026-11-11",
-        "dish": "Kycklingfärstacos med ris, gräddfil, tacosås och nachochips G"
-      },
-      {
-        "date": "2026-11-12",
-        "dish": "Panerad fisk serveras med kokt potatis och remouladsås G"
-      },
-      {
-        "date": "2026-11-13",
-        "dish": "Rosendalsskolans Flygande Jacob serveras med ris G"
+        "date": "2026-11-16",
+        "dish": "Västafrikanskt Maafe (kikärtsgryta) med ris och gräddfil G"
       },
       {
         "date": "2026-11-16",
