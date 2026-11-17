@@ -1,7 +1,7 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-11-16T12:54:21.613497+01:00",
+    "updated": "2026-11-17T13:17:46.490757+01:00",
     "days": [
       {
         "date": "2026-06-01",
@@ -251,15 +251,15 @@
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-11-16T12:54:22.381425+01:00",
+    "updated": "2026-11-17T13:17:47.631847+01:00",
     "days": [
       {
         "date": "2026-11-16",
         "dish": "Västafrikanskt Maafe (kikärtsgryta) med ris och gräddfil G"
       },
       {
-        "date": "2026-11-16",
-        "dish": "Västafrikanskt Maafe (kikärtsgryta) med ris och gräddfil G"
+        "date": "2026-11-17",
+        "dish": "Raggmunkar, strimlat fläsk, lingon"
       },
       {
         "date": "2026-11-17",
@@ -276,6 +276,26 @@
       {
         "date": "2026-11-20",
         "dish": "Köttfärssås, spagetti"
+      },
+      {
+        "date": "2026-11-23",
+        "dish": "Korv stroganoff, ris"
+      },
+      {
+        "date": "2026-11-24",
+        "dish": "Green nuggets med klyftpotatis och mangochutneysås G"
+      },
+      {
+        "date": "2026-11-25",
+        "dish": "Sej med senapssås och kokt potatis G"
+      },
+      {
+        "date": "2026-11-26",
+        "dish": "Biffgryta med pasta G"
+      },
+      {
+        "date": "2026-11-27",
+        "dish": "Risgrynsgröt, mjukt bröd, skinka, frukt"
       }
     ]
   }
