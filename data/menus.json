@@ -1,7 +1,7 @@
 {
   "kunskapsskolan-taby": {
     "source": "https://docs.google.com/document/d/1CtM2hp0F8hBbV-ZN-3hYWjwvsnFpxGUThdV34hanhFI/edit",
-    "updated": "2026-11-20T13:00:24.740882+01:00",
+    "updated": "2026-11-23T14:29:30.075500+01:00",
     "days": [
       {
         "date": "2026-06-01",
@@ -251,31 +251,11 @@
   },
   "olympia": {
     "source": "https://mpi.mashie.matildaplatform.com/public/app/Vallentuna%20kommun/b22e74ea",
-    "updated": "2026-11-20T13:00:25.605088+01:00",
+    "updated": "2026-11-23T14:29:30.823715+01:00",
     "days": [
       {
-        "date": "2026-11-16",
-        "dish": "Västafrikanskt Maafe (kikärtsgryta) med ris och gräddfil G"
-      },
-      {
-        "date": "2026-11-17",
-        "dish": "Raggmunkar, strimlat fläsk, lingon"
-      },
-      {
-        "date": "2026-11-18",
-        "dish": "Fiskgryta med örter, kokt potatis och aioli G"
-      },
-      {
-        "date": "2026-11-19",
-        "dish": "Kyckling med krämig svampsås och ris G"
-      },
-      {
-        "date": "2026-11-20",
-        "dish": "Köttfärssås, spagetti"
-      },
-      {
-        "date": "2026-11-20",
-        "dish": "Köttfärssås, spagetti"
+        "date": "2026-11-23",
+        "dish": "Korv stroganoff, ris"
       },
       {
         "date": "2026-11-23",
@@ -296,6 +276,26 @@
       {
         "date": "2026-11-27",
         "dish": "Risgrynsgröt, mjukt bröd, skinka, frukt"
+      },
+      {
+        "date": "2026-11-30",
+        "dish": "Risgrynsgröt, mjukt bröd, julskinka, pepparkaka, frukt"
+      },
+      {
+        "date": "2026-12-01",
+        "dish": "Kyckling i curry serveras med ris G"
+      },
+      {
+        "date": "2026-12-02",
+        "dish": "Cowboysoppa G"
+      },
+      {
+        "date": "2026-12-03",
+        "dish": "Fisk Björkeby, kokt potatis, örtagårdssås"
+      },
+      {
+        "date": "2026-12-04",
+        "dish": "Pulled pork (fläskkött) med tillbehör"
       }
     ]
   }
